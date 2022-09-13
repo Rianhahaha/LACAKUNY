@@ -1,0 +1,205 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Aplikasi Mirror Spasikita</title>
+  <!-- CSS files -->
+  <link href="./dist/css/tabler.min.css" rel="stylesheet" />
+  <link href="./dist/css/tabler-flags.min.css" rel="stylesheet" />
+  <link href="./dist/css/tabler-payments.min.css" rel="stylesheet" />
+  <link href="./dist/css/tabler-vendors.min.css" rel="stylesheet" />
+  <link href="./dist/css/demo.min.css" rel="stylesheet" />
+</head>
+
+<body class="theme-light">
+  <div class="wrapper">
+    <div class="page-wrapper">
+      <!-- Page title -->
+      <div class="page-body">
+        <div class="container-fluid">
+          <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasStart" role="button"
+            aria-controls="offcanvasStart">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24"
+              height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <polyline points="7 7 12 12 7 17"></polyline>
+              <polyline points="13 7 18 12 13 17"></polyline>
+            </svg>
+          </a>
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasStart" aria-labelledby="offcanvasStartLabel"
+          style="width: 240px;">
+          <div class="offcanvas-body">
+            <div>
+              <div class="page-wrapper" style="width: 300px;">
+                <aside class="navbar navbar-vertical navbar-expand navbar-dark" style="width: 280px;">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                      <ul class="navbar-nav pt-lg-3">
+                        <li class="nav-item  d-block d-sm-block d-md-none">
+                          <label class="nav-link">
+                            <h3 class="nav-link-title">
+                              Simproka
+                            </h3>
+                          </label>
+                        </li>
+                        <li class="nav-item dropdown ">
+                          <a class="nav-link" href="./Header-Sub-Simproka.html">
+                            <span class="nav-link-icon">
+                              <!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="5 12 3 12 12 3 21 12 19 12" />
+                                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                              </svg>
+                            </span>
+                            <span class="nav-link-title">
+                              Beranda
+                            </span>
+                          </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            data-bs-auto-close="false" role="button" aria-expanded="false">
+                            <span class="nav-link-icon">
+                              <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-report"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <desc>Download more icon variants from https://tabler-icons.io/i/report</desc>
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h5.697"></path>
+                                <path d="M18 14v4h4"></path>
+                                <path d="M18 11v-4a2 2 0 0 0 -2 -2h-2"></path>
+                                <rect x="8" y="3" width="6" height="4" rx="2"></rect>
+                                <circle cx="18" cy="18" r="4"></circle>
+                                <path d="M8 11h4"></path>
+                                <path d="M8 15h3"></path>
+                              </svg>
+                            </span>
+                            <span class="nav-link-title">
+                              Laporan Reguler
+                            </span>
+                          </a>
+                          <div class="dropdown-menu">
+                            <div class="dropdown-menu-columns">
+                              <div class="dropdown-menu-column">
+                                <a class="dropdown-item">
+                                  Target Reguler
+                                </a>
+                                <a class="dropdown-item">
+                                  Capaian Reguler
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            data-bs-auto-close="false" role="button" aria-expanded="false">
+                            <span class="nav-link-icon">
+                              <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-report"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <desc>Download more icon variants from https://tabler-icons.io/i/file-report</desc>
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="17" cy="17" r="4"></circle>
+                                <path d="M17 13v4h4"></path>
+                                <path d="M12 3v4a1 1 0 0 0 1 1h4"></path>
+                                <path d="M11.5 21h-6.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v2m0 3v4"></path>
+                              </svg>
+                            </span>
+                            <span class="nav-link-title">
+                              Laporan Non Reguler
+                            </span>
+                          </a>
+                          <div class="dropdown-menu">
+                            <div class="dropdown-menu-columns">
+                              <div class="dropdown-menu-column">
+                                <a class="dropdown-item">
+                                  Target Non Reguler
+                                </a>
+                                <a class="dropdown-item">
+                                  Capaian Non Reguler
+                                </a>
+                                <a class="dropdown-item">
+                                  Analisis SMART Satker
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            data-bs-auto-close="false" role="button" aria-expanded="false">
+                            <span class="nav-link-icon">
+                              <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-database"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <desc>Download more icon variants from https://tabler-icons.io/i/file-database</desc>
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <ellipse cx="12" cy="12.75" rx="4" ry="1.75"></ellipse>
+                                <path d="M8 12.5v3.75c0 .966 1.79 1.75 4 1.75s4 -.784 4 -1.75v-3.75"></path>
+                                <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                              </svg>
+                            </span>
+                            <span class="nav-link-title">
+                              Log Kiriman Data
+                            </span>
+                          </a>
+                          <div class="dropdown-menu">
+                            <div class="dropdown-menu-columns">
+                              <div class="dropdown-menu-column">
+                                <a class="dropdown-item">
+                                  Bapennas Komponen
+                                </a>
+                                <a class="dropdown-item">
+                                  Bapennas RO
+                                </a>
+                                <a class="dropdown-item">
+                                  Smart RO
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-wrapper">
+    <div class="container-fluid" style="margin:0; padding: 0;">
+      <div class="row-fluid" style="margin:0; padding:0;">
+        <div class="col-md-12" style="margin:0; padding:0;">
+          <iframe src="./Simproka.html " name="system_viewer" width="100%" height="100%" frameborder="0"
+            style="height: 100vh; width: 100%; overflow: hidden;" allow="camera;microphone;geolocation">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Libs JS -->
+  <!-- Tabler Core -->
+  <script src="./dist/js/tabler.min.js"></script>
+  <script src="./dist/js/demo.min.js"></script>
+</body>
+
+</html>

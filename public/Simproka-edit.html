@@ -1,0 +1,764 @@
+<?php
+	$page = "simproka"; ?>
+<?= $this->include('layout/header'); ?>
+<?= $this->include('layout/sidebarSimproka'); ?>
+
+<div class="container-xl">
+    <div class="card">
+        <div class="card-body">
+            <h1> Capaian Laporan Reguler</h1>
+            <div class="row">
+                <div class="col-10">
+                    <div class="mb-3">
+                        <label class="form-label required">Kode</label>
+                        <div class="input-group">
+                            <input class="form-control" id="newKode" name="newKode"
+                                value="a449f3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+                                disabled>
+                            <button class="btn btn-ghost-primary btn-icon" onclick="toggle()">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock"
+                                    width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="5" y="11" width="14" height="10" rx="2"></rect>
+                                    <circle cx="12" cy="16" r="1"></circle>
+                                    <path d="M8 11v-4a4 4 0 0 1 8 0v4"></path>
+                                </svg>
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="mb-3">
+                        <label class="form-label"><br></label>
+                        <button class="btn btn-outline-primary" data-bs-target="#pilihpic"
+                            data-bs-toggle="modal">PilihPIC</button>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label required">Uraian</label>
+                    <div class="input-group">
+                        <textarea class="form-control" id="uraian" name="uraian" data-bs-toggle="autosize" disabled
+                            style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;">uaraian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                 </textarea>
+                        <button class="btn btn-ghost-primary btn-icon" onclick="toggle1()">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <rect x="5" y="11" width="14" height="10" rx="2"></rect>
+                                <circle cx="12" cy="16" r="1"></circle>
+                                <path d="M8 11v-4a4 4 0 0 1 8 0v4"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <ul class="nav nav-tabs nav-fill" data-bs-toggle="tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a href="#reviu" class="nav-link active" style="justify-content: center;" data-bs-toggle="tab"
+                            aria-selected="true" role="tab" tabindex="-1">
+                            <!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2" width="24" height="24"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <polyline points="5 12 3 12 12 3 21 12 19 12"></polyline>
+                                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+                            </svg>
+                            Reviu Informasi
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="#inputcapaian" class="nav-link" data-bs-toggle="tab" style="justify-content: center;"
+                            aria-selected="false" role="tab" tabindex="-1">
+                            <!-- Download SVG icon from http://tabler-icons.io/i/user -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2" width="24" height="24"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                            </svg>
+                            Input Capaian
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="#editcapaian" class="nav-link" data-bs-toggle="tab" style="justify-content: center;"
+                            aria-selected="false" role="tab">
+                            <!-- Download SVG icon from http://tabler-icons.io/i/activity -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2" width="24" height="24"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 12h4l3 8l4 -16l3 8h4"></path>
+                            </svg>
+                            Edit Capaian
+                        </a>
+                    </li>
+                </ul>
+                <!-- Konten Reviu Info -->
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="reviu" role="tabpanel">
+                            <table class="table">
+                                <thead>
+                                    <tr align=middle>
+                                        <td>
+                                            <b>Bulan</b>
+                                        </td>
+                                        <td>
+                                            <b>%Target Keuangan (Riil perBulan)</b>
+                                        </td>
+                                        <td>
+                                            <b>Target Fisik (Riil perBulan)</b>
+                                        </td>
+                                        <td>
+                                            <b>Status Validasi</b>
+                                        </td>
+                                </thead>
+                                <tbody>
+                                    <!-- Januari -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Januari </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end Januari -->
+                                        <!-- februari -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Februari </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end februari -->
+                                        <!-- Maret -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Maret </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end maret -->
+                                        <!-- April -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> April </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end april -->
+                                        <!-- Mei -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Mei </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end Mei -->
+                                        <!-- Juni -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Juni </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end Juni -->
+                                        <!-- Juli -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Juli </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end juli -->
+                                        <!-- Agustus -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Agustus </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end agustus -->
+                                        <!-- September -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> September </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end september -->
+                                        <!-- Oktober -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Oktober </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end OKtober -->
+                                        <!-- nov -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> November </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end okt -->
+                                        <!-- des -->
+                                    <tr valign=middle>
+                                        <td>
+                                            <b> Desember </b>
+                                        </td>
+                                        <td>
+                                            <!--  %Target Keuangan (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+
+                                        </td>
+                                        <td>
+                                            <!--  Target Fisik (Riil perBulan) -->
+                                            <input style="direction: rtl; text-align: center;" type="text"
+                                                class="form-control" placeholder="40">
+                                        </td>
+                                        <!-- end OKtober -->
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <!-- Konten Reviu Info end -->
+
+                        <!-- Konten input Capaian -->
+                        <div class="tab-pane" id="inputcapaian" role="tabpanel">
+
+                            <div class="row">
+                                <div class="col-3">
+                                    <label class="form-label required text-danger">Pilih bulan terlebih
+                                        dahulu asdsakdb</label>
+                                    <div class="btn-group">
+                                        <select name="sistem" class="form-select">
+                                            <option value="1" selected>Pilih bulan....
+                                            </option>
+                                            <option value="2"> Januari
+                                            </option>
+                                            <option value="3"> Februari
+                                            </option>
+                                            <option value="4"> Maret
+                                            </option>
+                                            <option value="5">April
+                                            </option>
+                                            <option value="5">Mei
+                                            </option>
+                                            <option value="5">Juni
+                                            </option>
+                                            <option value="5">Juli
+                                            </option>
+                                            <option value="5">Agustus
+                                            </option>
+                                            <option value="5">September
+                                            </option>
+                                            <option value="5">Oktober
+                                            </option>
+                                            <option value="5">November
+                                            </option>
+                                            <option value="5">Desember
+                                            </option>
+                                        </select>
+                                        <button class="btn btn-outline-primary"> Pilih </button>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <form action="simproka1/editSimproka" method="post">
+                                        <input type="hidden" name="kode" id="kode"
+                                            value="<?=dot_array_search('0.kode',$data)?>">
+                                        <input type="hidden" name="detail" id="detail"
+                                            value="<?=dot_array_search('0.detail',$data)?>">
+                                        <div class="col-sm-4 col-md-4">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Volume Target</label>
+                                                <input class="form-control" id="volume_target" name="volume_target"
+                                                    value="<?=dot_array_search('0.volume_target',$data)?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-4">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Volume Capaian</label>
+                                                <input class="form-control" id="capaian_volume" name="capaian_volume"
+                                                    placeholder="Isikan Volume Target!"
+                                                    value="<?=dot_array_search('0.capaian_volume',$data)?>" required="">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-sm-4 col-md-4">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Satuan</label>
+                                                <input type="text" class="form-control" id="satuan" name="satuan"
+                                                    placeholder="Isikan Capaian Volume!"
+                                                    value="<?=dot_array_search('0.volume_target',$data)?>" required="">
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label required">Progress Fisik</label>
+                                            <textarea class="form-control" id="progres" name="progres"
+                                                data-bs-toggle="autosize" placeholder="Isikan Progress!" required=""
+                                                style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"><?=dot_array_search('0.progres',$data)?></textarea>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Realisasi Rill</label>
+                                                <textarea class="form-control" id="capaian_rill" name="capaian_rill"
+                                                    data-bs-toggle="autosize" placeholder="Isikan Capaian Rill!"
+                                                    required=""
+                                                    style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"><?=dot_array_search('0.capaian_rill',$data)?></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Satuan Rill</label>
+                                                <textarea class="form-control" id="satuan_rill" name="satuan_rill"
+                                                    data-bs-toggle="autosize" placeholder="Isikan Capaian Rill!"
+                                                    required=""
+                                                    style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"><?=dot_array_search('0.satuan_rill',$data)?></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Status Progress</label>
+                                                <select name="status" id="status" class="form-select">
+                                                    <option value="1"> anu
+                                                    </option>
+                                                    <option value="2"> una
+                                                    </option>
+                                                    <option value="3"> ini
+                                                    </option>
+                                                    <option value="4"> itu
+                                                    </option>
+                                                    <option value="5"> dia
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Keterangan Progress</label>
+                                                <textarea class="form-control" id="penjelasan" name="penjelasan"
+                                                    data-bs-toggle="autosize" placeholder="Isikan Capaian Rill!"
+                                                    required=""
+                                                    style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"><?=dot_array_search('0.penjelasan',$data)?></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Kendala</label>
+                                                <select name="kendala" id="kendala" class="form-select">
+                                                    <option value="1"> anu
+                                                    </option>
+                                                    <option value="2"> una
+                                                    </option>
+                                                    <option value="3"> ini
+                                                    </option>
+                                                    <option value="4"> itu
+                                                    </option>
+                                                    <option value="5"> dia
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <div class="mb-3">
+                                                <label class="form-label required">Keterangan Kendala</label>
+                                                <textarea class="form-control" id="keterangan_kendala"
+                                                    name="keterangan_kendala" data-bs-toggle="autosize"
+                                                    placeholder="Isikan Capaian Rill!" required
+                                                    style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"><?=dot_array_search('0.keterangan_kendala',$data)?></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label required">Solusi atau Tindaklanjut</label>
+                                            <textarea class="form-control" id="tindak_lanjut" name="tindak_lanjut"
+                                                data-bs-toggle="autosize" placeholder="Isikan Satuan Rill!" required=""
+                                                style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"><?=dot_array_search('0.tindak_lanjut',$data)?></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Data Dukung</label>
+                                            <Input type="file" class="form-control" id="" name="">
+                                        </div>
+                                        <div class="card-footer text-end">
+                                            <div class="d-flex">
+
+                                                <button type="submit" class="btn btn-success ms-auto">Simpan
+                                                    Perubahan</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Konten Input Capaian end -->
+
+                            <!-- Konten Edit Capaian -->
+                            <div class="tab-pane" id="editcapaian" role="tabpanel">
+
+                                <div class="row">
+                                    <div class="col-3">
+                                        <label class="form-label required text-danger">Pilih bulan terlebih
+                                            dahulu</label>
+                                        <div class="btn-group">
+                                            <select name="sistem" class="form-select">
+                                                <option value="1" selected>Pilih bulan....
+                                                </option>
+                                                <option value="2"> Januari
+                                                </option>
+                                                <option value="3"> Februari
+                                                </option>
+                                                <option value="4"> Maret
+                                                </option>
+                                                <option value="5">April
+                                                </option>
+                                                <option value="5">Mei
+                                                </option>
+                                                <option value="5">Juni
+                                                </option>
+                                                <option value="5">Juli
+                                                </option>
+                                                <option value="5">Agustus
+                                                </option>
+                                                <option value="5">September
+                                                </option>
+                                                <option value="5">Oktober
+                                                </option>
+                                                <option value="5">November
+                                                </option>
+                                                <option value="5">Desember
+                                                </option>
+                                            </select>
+                                            <button class="btn btn-outline-primary"> Pilih </button>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3"></div>
+
+                                    <div class="col-sm-4 col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Volume Target</label>
+                                            <input class="form-control" id="satuan" name="satuan" value="adasd">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Volume Capaian</label>
+                                            <input class="form-control" id="volume_target" name="volume_target"
+                                                placeholder="Isikan Volume Target!" value="123" required="">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Satuan</label>
+                                            <input type="text" class="form-control" id="capaian_volume"
+                                                name="capaian_volume" placeholder="Isikan Capaian Volume!" value=""
+                                                required="">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label required">Progress Fisik</label>
+                                        <textarea class="form-control" id="progres" name="progres"
+                                            data-bs-toggle="autosize" placeholder="Isikan Progress!" required=""
+                                            style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"></textarea>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Realisasi Rill</label>
+                                            <textarea class="form-control" id="capaian_rill" name="capaian_rill"
+                                                data-bs-toggle="autosize" placeholder="Isikan Capaian Rill!" required=""
+                                                style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Satuan Rill</label>
+                                            <textarea class="form-control" id="capaian_rill" name="capaian_rill"
+                                                data-bs-toggle="autosize" placeholder="Isikan Capaian Rill!" required=""
+                                                style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Status Progress</label>
+                                            <select name="sistem" class="form-select">
+                                                <option value="1"> anu
+                                                </option>
+                                                <option value="2"> una
+                                                </option>
+                                                <option value="3"> ini
+                                                </option>
+                                                <option value="4"> itu
+                                                </option>
+                                                <option value="5"> dia
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Keterangan Progress</label>
+                                            <textarea class="form-control" id="capaian_rill" name="capaian_rill"
+                                                data-bs-toggle="autosize" placeholder="Isikan Capaian Rill!" required=""
+                                                style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Kendala</label>
+                                            <select name="sistem" class="form-select">
+                                                <option value="1"> anu
+                                                </option>
+                                                <option value="2"> una
+                                                </option>
+                                                <option value="3"> ini
+                                                </option>
+                                                <option value="4"> itu
+                                                </option>
+                                                <option value="5"> dia
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label required">Keterangan Kendala</label>
+                                            <textarea class="form-control" id="capaian_rill" name="capaian_rill"
+                                                data-bs-toggle="autosize" placeholder="Isikan Capaian Rill!" required
+                                                style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label required">Solusi atau Tindaklanjut</label>
+                                        <textarea class="form-control" id="capaian_rill" name="capaian_rill"
+                                            data-bs-toggle="autosize" placeholder="Isikan Satuan Rill!" required=""
+                                            style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 56px;"> </textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Data Dukung</label>
+                                        <Input type="file" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="card-footer text-end">
+                                        <div class="d-flex">
+
+                                            <button type="button" class="btn btn-success ms-auto">Simpan
+                                                Perubahan</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Konten Edit Capaian end -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Page title -->
+    </div>
+
+
+    <!-- MODAL -->
+
+    <!-- modal pilih PIC -->
+    <div class="modal fade" id="pilihpic" aria-labelledby="EditPK" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2>Pilih PIC</h2>
+                    <table class="table table-bordered table-hover">
+                        <div class="form-label">Pilih PIC</div>
+                        <div>
+                            <tr>
+                                <td> <label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">Admisi</span>
+                                    </label> </td>
+                                <td> <label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">Bid Akademik</span>
+                                    </label> </td>
+                            </tr>
+                            <tr>
+                                <td> <label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">Bid Kemahasiswaan dan Alumni</span>
+                                    </label></td>
+                                <td> <label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">Bid Perencanaan dan Kerjasama</span>
+                                    </label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">BMN</span>
+                                    </label></td>
+                                <td><label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">Keuangan</span>
+                                    </label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">LPMPP</span>
+                                    </label></td>
+                                <td><label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">LPPM</span>
+                                    </label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">PPG</span>
+                                    </label></td>
+                                <td><label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">Rumah Tangga</span>
+                                    </label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <span class="form-check-label">ULP</span>
+                                    </label></td>
+                        </div>
+                </div>
+                <!-- <tr>
+                        <td>DK.4470.BEI.001.004</td>
+                        <td align="middle">
+                            <button class="btn btn-outline-success">
+                                Pilih
+                            </button>
+                        </td>
+                    </tr> -->
+
+                </table>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal">Kembali</button>
+                <button type="submit" class="btn btn-success">Simpan
+                    Perubahan</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end modal pilih PIC -->
+
+<!-- MODAL END -->
+<?= $this->include('layout/footer'); ?>

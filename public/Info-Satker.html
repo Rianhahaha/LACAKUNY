@@ -1,0 +1,187 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aplikasi Mirror Spasikita</title>
+    <!-- CSS files -->
+    <link href="./dist/css/tabler.min.css" rel="stylesheet" />
+    <link href="./dist/css/tabler-flags.min.css" rel="stylesheet" />
+    <link href="./dist/css/tabler-payments.min.css" rel="stylesheet" />
+    <link href="./dist/css/tabler-vendors.min.css" rel="stylesheet" />
+    <link href="./dist/css/demo.min.css" rel="stylesheet" />
+</head>
+
+<body class='text-dark'>
+    <div class="page" style="overflow-y: hidden; overflow-x: hidden;">
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-md-12">
+                        <div class="card card-stacked">
+                            <div class="card-body">
+                                <table width='100%'>
+                                    <tr>
+                                        <td width='50%' style='vertical-align: middle;'>
+                                            <h3 class="card-title">Info Satker</h3>
+                                        </td>
+                                        <td width='50%'>
+                                            <p align='right'><a href='#' class='btn btn-dark' data-bs-toggle="modal"
+                                                    data-bs-target="#modalUpdateSatker">Edit</a></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class='table table-bordered table-striped table-hover' width='100%'>
+                                    <thead>
+                                        <tr>
+                                            <td class='text-center text-white bg-dark'>No</td>
+                                            <td class='text-center text-white bg-dark'>Nomenklatur</td>
+                                            <td class='text-center text-white bg-dark'>Uraian</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class='text-center'>1</td>
+                                            <td>Unit Eselon 1</td>
+                                            <td>DITJEN PENDIDIKAN TINGGI, RISET, DAN TEKNOLOGI</td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text-center'>2</td>
+                                            <td>Satker</td>
+                                            <td>UNIVERSITAS NEGERI YOGYAKARTA (677509)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text-center'>3</td>
+                                            <td>Kepala Satker</td>
+                                            <td>Prof. Dr. Sumaryanto, M.Kes</td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text-center'>4</td>
+                                            <td>NIK Kepala Satker</td>
+                                            <td>3404100103650002</td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text-center'>5</td>
+                                            <td>NIP Kepala Satker</td>
+                                            <td>196503011990011001</td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text-center'>6</td>
+                                            <td>Alamat Kantor</td>
+                                            <td>Jalan Colombo Nomor 1, Karangmalang, Yogyakarta</td>
+                                        </tr>
+                                        <tr>
+                                            <td class='text-center'>7</td>
+                                            <td>Jabatan</td>
+                                            <td>Rektor Universitas Negeri Yogyakarta</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+
+                        <div class="card card-stacked" style='margin-top:2vw; margin-bottom: 20vw;'>
+                            <div class="card-body">
+                                <h3 class="card-title">Tugas</h3>
+                                <p align='justify'>memimpin penyelenggaraan pendidikan, penelitian, dan pengabdian
+                                    kepada masyarakat, serta membina pendidik, tenaga kependidikan, mahasiswa dan
+                                    hubungannya dengan lingkungan</p>
+                                <h3 class="card-title">Fungsi</h3>
+                                <p align='justify'>
+                                <ol>
+                                    <li>pelaksanaan dan pengembangan pendidikan tinggi</li>
+                                    <li>pelaksanaan penelitian untuk pengembangan ilmu pengetahuan dan/atau teknologi
+                                    </li>
+                                    <li>pelaksanaan pengabdian kepada masyarakat</li>
+                                    <li>pelaksanaan pembinaan pendidik, tenaga kependidikan, mahasiswa, dan hubungannya
+                                        dengan lingkungan</li>
+                                    <li>pelaksanaan kegiatan layanan administratif</li>
+                                </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalUpdateSatker" tabindex="-1" aria-labelledby="modalUpdateSatkerLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="modalUpdateSatkerLabel">Update Satker</h5>
+                </div>
+                <div class="modal-body" style='height: 30vw;'>
+                    <form>
+                        <div class="mb-3">
+                            <label for="inputUnitKerja" class="form-label">Nama Unit Kerja</label>
+                            <input type="text" class="form-control" id="inputUnitKerja" name='inputUnitKerja'
+                                value='DITJEN PENDIDIKAN TINGGI, RISET, DAN TEKNOLOGI'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputSatker" class="form-label">Nama Satuan Kerja</label>
+                            <input type="text" class="form-control" id="inputSatker" name='inputSatker'
+                                value='UNIVERSITAS NEGERI YOGYAKARTA (677509)'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputNIK" class="form-label">NIK Kepala Kantor</label>
+                            <input type="text" class="form-control" id="inputNIK" name='inputNIK'
+                                value='3404100103650002'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputNIP" class="form-label">NIP Kepala Unit Kerja</label>
+                            <input type="text" class="form-control" id="inputNIP" name='inputNIP'
+                                value='196503011990011001'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputNamaKepala" class="form-label">Nama Kepala Unit Kerja</label>
+                            <input type="text" class="form-control" id="inputNamaKepala" name='inputNamaKepala'
+                                value='Prof. Dr. Sumaryanto, M.Kes'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputJabatan" class="form-label">Nama Jabatan</label>
+                            <input type="text" class="form-control" id="inputJabatan" name='inputJabatan'
+                                value='Rektor Universitas Negeri Yogyakarta'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputAlamat" class="form-label">Alamat Unit Kerja</label>
+                            <input type="text" class="form-control" id="inputAlamat" name='inputAlamat'
+                                value='Jalan Colombo Nomor 1, Karangmalang, Yogyakarta'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputOperator" class="form-label">Nama Operator</label>
+                            <input type="text" class="form-control" id="inputOperator" name='inputOperator'
+                                value='Hariyono'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputTelepon" class="form-label">No HP</label>
+                            <input type="text" class="form-control" id="inputTelepon" name='inputTelepon'
+                                value='081392408723'>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" name='inputEmail'
+                                value='hariyono@uny.ac.id'>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary">Simpan Perubahan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Libs JS -->
+    <!-- Tabler Core -->
+    <script src="./dist/js/tabler.min.js"></script>
+    <script src="./dist/js/demo.min.js"></script>
+</body>
+
+</html>
