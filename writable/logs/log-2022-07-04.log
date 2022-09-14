@@ -1,0 +1,246 @@
+CRITICAL - 2022-07-04 07:02:43 --> unlink(/var/www/ciapp/public/uploads/1656895420_ca09d91efefbc9cad72b.png): No such file or directory
+in APPPATH/Controllers/Kinerja.php on line 425.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(425): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 07:18:34 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/kinerja.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(45): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 07:18:36 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/kinerja.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(45): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 07:18:38 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/kinerja.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(45): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 07:18:39 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/kinerja.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(45): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 07:47:21 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;pic&quot; of relation &quot;pengukuran&quot; violates not-null constraint
+DETAIL:  Failing row contains (100, 30                                                              ...,   100.00                                                        ..., 0                                                               ..., 0                                                               ..., null, null, 330, null, 50                                                              ..., 2022, 3). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(220): App\Models\IndikatorKinerjaModel->insertAll()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-04 07:47:21 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;id_pengguna&quot; of relation &quot;progres&quot; violates not-null constraint
+DETAIL:  Failing row contains (108, 0, 2022, 50                                                              ..., null, 3). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(232): App\Models\IndikatorKinerjaModel->insertAll()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-04 07:47:21 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;id_pengguna&quot; of relation &quot;kendala&quot; violates not-null constraint
+DETAIL:  Failing row contains (108, 0, 50                                                              ..., null, 2022, 3). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(245): App\Models\IndikatorKinerjaModel->insertAll()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-04 07:47:21 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;id_pengguna&quot; of relation &quot;strategi&quot; violates not-null constraint
+DETAIL:  Failing row contains (106, 0, 50                                                              ..., null, 2022, 3). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(32): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(257): App\Models\IndikatorKinerjaModel->insertAll()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-04 07:47:21 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = integer
+LINE 3: WHERE &quot;kode_sk&quot; = 0
+                        ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(87): CodeIgniter\Database\BaseBuilder->getWhere()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(205): App\Models\IndikatorKinerjaModel->getIDSK()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-04 07:47:21 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/Kinerja.php on line 206.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-04 07:59:52 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = integer
+LINE 3: WHERE &quot;kode_sk&quot; = 0
+                        ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(87): CodeIgniter\Database\BaseBuilder->getWhere()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(205): App\Models\IndikatorKinerjaModel->getIDSK()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-04 07:59:52 --> pg_query(): Query failed: ERROR:  operator does not exist: character = integer
+LINE 3: WHERE &quot;kode_sk&quot; = 0
+                        ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/IndikatorKinerjaModel.php(87): CodeIgniter\Database\BaseBuilder->getWhere()
+ 7 APPPATH/Controllers/Kinerja.php(205): App\Models\IndikatorKinerjaModel->getIDSK()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 08:01:29 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88813152 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:01:36 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:01:39 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:01:41 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:01:43 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:01:49 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:02:24 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:02:59 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+in APPPATH/Views/pages/kinerja.php on line 699.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:03:34 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+in APPPATH/Views/pages/kinerja.php on line 699.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:04:25 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:04:29 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:04:31 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:04:44 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:04:44 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:04:46 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:04:52 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 88812968 bytes)
+in SYSTEMPATH/View/View.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-04 08:49:53 --> Call to a member function get() on null
+in APPPATH/Controllers/Satker.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 08:50:37 --> Undefined property: App\Controllers\Satker::$session
+in APPPATH/Controllers/Satker.php on line 10.
+ 1 APPPATH/Controllers/Satker.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:23:28 --> Invalid file: pages/simproka.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(19): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->simproka()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:23:42 --> Invalid file: pages/simproka.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(19): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->simproka()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 22:30:00 --> Undefined index: O
+in APPPATH/Controllers/Kinerja.php on line 144.
+ 1 APPPATH/Controllers/Kinerja.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

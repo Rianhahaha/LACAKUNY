@@ -1,0 +1,140 @@
+ERROR - 2022-06-19 10:41:57 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "postgresql://root:q2w3E$R%T^@8.215.67.23:5432" to address: Name or service not known
+ERROR - 2022-06-19 10:44:27 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-19 10:46:50 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "127.0.0.1:3000" to address: Name or service not known
+ERROR - 2022-06-19 10:47:03 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 3000?
+ERROR - 2022-06-19 10:49:43 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-19 10:50:47 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+ERROR - 2022-06-19 10:51:07 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+ERROR - 2022-06-19 10:52:09 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+ERROR - 2022-06-19 10:52:56 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+ERROR - 2022-06-19 10:53:23 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+CRITICAL - 2022-06-19 10:56:26 --> syntax error, unexpected ''hostname'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Config/Database.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Database/MigrationRunner.php(144): config()
+ 9 SYSTEMPATH/Config/Services.php(398): CodeIgniter\Database\MigrationRunner->__construct()
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+11 SYSTEMPATH/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(393): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+14 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run()
+16 SYSTEMPATH/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run()
+17 SYSTEMPATH/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index()
+18 SYSTEMPATH/CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap()
+19 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+20 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest()
+21 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+22 ROOTPATH/spark(86): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-06-19 10:56:51 --> syntax error, unexpected ''hostname'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Config/Database.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Database/MigrationRunner.php(144): config()
+ 9 SYSTEMPATH/Config/Services.php(398): CodeIgniter\Database\MigrationRunner->__construct()
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+11 SYSTEMPATH/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(393): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+14 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run()
+16 SYSTEMPATH/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run()
+17 SYSTEMPATH/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index()
+18 SYSTEMPATH/CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap()
+19 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+20 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest()
+21 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+22 ROOTPATH/spark(86): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-06-19 10:57:32 --> syntax error, unexpected ''hostname'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Config/Database.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Database/MigrationRunner.php(144): config()
+ 9 SYSTEMPATH/Config/Services.php(398): CodeIgniter\Database\MigrationRunner->__construct()
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+11 SYSTEMPATH/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(393): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+14 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run()
+16 SYSTEMPATH/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run()
+17 SYSTEMPATH/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index()
+18 SYSTEMPATH/CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap()
+19 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+20 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest()
+21 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+22 ROOTPATH/spark(86): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-06-19 10:59:23 --> syntax error, unexpected ''hostname'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Config/Database.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Database/MigrationRunner.php(144): config()
+ 9 SYSTEMPATH/Config/Services.php(398): CodeIgniter\Database\MigrationRunner->__construct()
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+11 SYSTEMPATH/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(393): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+14 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run()
+16 SYSTEMPATH/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run()
+17 SYSTEMPATH/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index()
+18 SYSTEMPATH/CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap()
+19 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+20 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest()
+21 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+22 ROOTPATH/spark(86): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-06-19 11:05:42 --> syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Config/Database.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Database/MigrationRunner.php(144): config()
+ 9 SYSTEMPATH/Config/Services.php(398): CodeIgniter\Database\MigrationRunner->__construct()
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+11 SYSTEMPATH/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(393): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\Services::migrations()
+14 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run()
+16 SYSTEMPATH/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run()
+17 SYSTEMPATH/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index()
+18 SYSTEMPATH/CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap()
+19 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+20 SYSTEMPATH/CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest()
+21 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+22 ROOTPATH/spark(86): CodeIgniter\CLI\Console->run()
+ERROR - 2022-06-19 11:06:03 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+ERROR - 2022-06-19 11:07:30 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+ERROR - 2022-06-19 11:12:21 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied

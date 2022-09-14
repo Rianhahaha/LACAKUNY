@@ -1,0 +1,1535 @@
+CRITICAL - 2022-09-09 00:40:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Simproka1.php(44): CodeIgniter\Model->__call('dataEdit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 00:40:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Simproka1.php(44): CodeIgniter\Model->__call('dataEdit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 00:40:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Simproka1.php(65): CodeIgniter\Model->__call('dataEdit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 00:57:25 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Simproka1.php on line 225.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('simproka1')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('simproka1')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('simproka1')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 00:58:17 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(227): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 00:58:17 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(227): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 00:58:24 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(252): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 01:00:21 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(227): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 01:00:21 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" IS NULL
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(227): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:01:22 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(253): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:01:23 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(253): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:02:57 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(255): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:02:57 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(255): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:06:57 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(259): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:06:58 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(259): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:07:56 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(259): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 01:08:11 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 01:08:11 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:14:09 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 247.
+ 1 APPPATH\Controllers\Simproka1.php(247): array_push(11, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:15:01 --> syntax error, unexpected variable "$data", expecting ")"
+in APPPATH\Controllers\Simproka1.php on line 248.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Simproka1.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Simproka1')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Simproka1')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Simproka1', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:15:02 --> syntax error, unexpected variable "$data", expecting ")"
+in APPPATH\Controllers\Simproka1.php on line 248.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Simproka1.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Simproka1')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Simproka1')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Simproka1', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:15:14 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Simproka1.php on line 247.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Simproka1.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Simproka1')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Simproka1')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Simproka1', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:15:37 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 248.
+ 1 APPPATH\Controllers\Simproka1.php(248): array_push(11, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:17:59 --> Undefined array key "data"
+in APPPATH\Controllers\Simproka1.php on line 248.
+ 1 APPPATH\Controllers\Simproka1.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'APPPATH\\Controllers\\Simproka1.php', 248)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:29:55 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Simproka1.php on line 250.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Simproka1.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Simproka1')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Simproka1')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Simproka1', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:30:03 --> Array to string conversion
+in APPPATH\Controllers\Simproka1.php on line 248.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Simproka1.php', 248)
+ 2 APPPATH\Controllers\Simproka1.php(248): array_unique([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:37:49 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(264): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:39:19 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(276): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:39:20 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(276): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 01:39:22 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 01:39:22 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:39:26 --> Trying to access array offset on value of type int
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(276): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:39:27 --> Trying to access array offset on value of type int
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(276): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:39:48 --> Trying to access array offset on value of type int
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(276): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 01:39:49 --> Trying to access array offset on value of type int
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(276): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:00:40 --> Trying to access array offset on value of type int
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(276): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 02:00:41 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 02:00:41 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:04:21 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 475.
+ 1 APPPATH\Views\pages\simproka1.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 475)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(277): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:06:10 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(277): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:08:23 --> Undefined array key "totalFIle"
+in APPPATH\Controllers\Simproka1.php on line 251.
+ 1 APPPATH\Controllers\Simproka1.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalFIle"', 'APPPATH\\Controllers\\Simproka1.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:08:24 --> Undefined array key "totalFIle"
+in APPPATH\Controllers\Simproka1.php on line 251.
+ 1 APPPATH\Controllers\Simproka1.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalFIle"', 'APPPATH\\Controllers\\Simproka1.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:08:56 --> Undefined array key "totalFIle"
+in APPPATH\Controllers\Simproka1.php on line 251.
+ 1 APPPATH\Controllers\Simproka1.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalFIle"', 'APPPATH\\Controllers\\Simproka1.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:08:57 --> Undefined array key "totalFIle"
+in APPPATH\Controllers\Simproka1.php on line 251.
+ 1 APPPATH\Controllers\Simproka1.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalFIle"', 'APPPATH\\Controllers\\Simproka1.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:09:19 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(278): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:14:16 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(280): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:14:16 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(280): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:16:37 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(280): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:17:09 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(281): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:17:16 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(281): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:29:05 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Simproka1.php on line 255.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:34:25 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(285): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:47:55 --> Undefined array key "DK.4471.CAA.001"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4471.CAA.001"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(286): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:57:35 --> Only variables should be passed by reference
+in APPPATH\Controllers\Simproka1.php on line 256.
+ 1 APPPATH\Controllers\Simproka1.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Controllers\\Simproka1.php', 256)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 02:58:07 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 256.
+ 1 APPPATH\Controllers\Simproka1.php(256): array_push(10, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 03:07:17 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 03:07:17 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(162): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(229): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 05:50:07 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php on line 288
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Simproka1.php(288): view('pages/simproka1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 05:50:34 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(288): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 06:02:30 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(284): view('pages/simproka1', [])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 06:05:41 --> Undefined variable $dataSP
+in APPPATH\Controllers\Simproka1.php on line 143.
+ 1 APPPATH\Controllers\Simproka1.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataSP', 'APPPATH\\Controllers\\Simproka1.php', 143)
+ 2 APPPATH\Controllers\Simproka1.php(222): App\Controllers\Simproka1->setData()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->KRO()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 06:06:35 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;detail&quot; of relation &quot;sistem_simproka&quot; does not exist
+LINE 1: ...proka&quot; (&quot;kode&quot;, &quot;tahun&quot;, &quot;sistem&quot;, &quot;id_pengguna&quot;, &quot;detail&quot;) ...
+                                                             ^ in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'INSERT INTO "si...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "si...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "si...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "si...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(635): App\Models\BaseModel->insertAll('sistem_simproka', Array)
+#7 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->readExcel()
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#12 {main}
+CRITICAL - 2022-09-09 06:06:35 --> pg_query(): Query failed: ERROR:  column &quot;detail&quot; of relation &quot;sistem_simproka&quot; does not exist
+LINE 1: ...proka&quot; (&quot;kode&quot;, &quot;tahun&quot;, &quot;sistem&quot;, &quot;id_pengguna&quot;, &quot;detail&quot;) ...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;detail&quot; of relation &quot;sistem_simproka&quot; does not exist
+LINE 1: ...proka&quot; (&quot;kode&quot;, &quot;tahun&quot;, &quot;sistem&quot;, &quot;id_pengguna&quot;, &quot;detail&quot;) ...
+                                                             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (677509, \'2022\', 9, 1230, \'OTHER\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (677509, \'2022\', 9, 1230, \'OTHER\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (677509, \'2022\', 9, 1230, \'OTHER\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (:kode:, :tahun:, :sistem:, :id_pengguna:, :detail:)', [...], false)
+ 6 APPPATH\Models\BaseModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\Simproka1.php(635): App\Models\BaseModel->insertAll('sistem_simproka', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->readExcel()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 06:50:43 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;detail&quot; of relation &quot;sistem_simproka&quot; does not exist
+LINE 1: ...proka&quot; (&quot;kode&quot;, &quot;tahun&quot;, &quot;sistem&quot;, &quot;id_pengguna&quot;, &quot;detail&quot;) ...
+                                                             ^ in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'INSERT INTO "si...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "si...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "si...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "si...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(635): App\Models\BaseModel->insertAll('sistem_simproka', Array)
+#7 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->readExcel()
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#11 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#12 {main}
+CRITICAL - 2022-09-09 06:50:43 --> pg_query(): Query failed: ERROR:  column &quot;detail&quot; of relation &quot;sistem_simproka&quot; does not exist
+LINE 1: ...proka&quot; (&quot;kode&quot;, &quot;tahun&quot;, &quot;sistem&quot;, &quot;id_pengguna&quot;, &quot;detail&quot;) ...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;detail&quot; of relation &quot;sistem_simproka&quot; does not exist
+LINE 1: ...proka&quot; (&quot;kode&quot;, &quot;tahun&quot;, &quot;sistem&quot;, &quot;id_pengguna&quot;, &quot;detail&quot;) ...
+                                                             ^', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (677509, \'2022\', 9, 1230, \'OTHER\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (677509, \'2022\', 9, 1230, \'OTHER\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (677509, \'2022\', 9, 1230, \'OTHER\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO "sistem_simproka" ("kode", "tahun", "sistem", "id_pengguna", "detail") VALUES (:kode:, :tahun:, :sistem:, :id_pengguna:, :detail:)', [...], false)
+ 6 APPPATH\Models\BaseModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 APPPATH\Controllers\Simproka1.php(635): App\Models\BaseModel->insertAll('sistem_simproka', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->readExcel()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:12:42 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 142.
+ 1 APPPATH\Controllers\Simproka1.php(142): array_push(1, [...])
+ 2 APPPATH\Controllers\Simproka1.php(270): App\Controllers\Simproka1->dataGeneral()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:13:15 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 142.
+ 1 APPPATH\Controllers\Simproka1.php(142): array_push(1, [...])
+ 2 APPPATH\Controllers\Simproka1.php(270): App\Controllers\Simproka1->dataGeneral()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:13:59 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 142.
+ 1 APPPATH\Controllers\Simproka1.php(142): array_push(2, [...])
+ 2 APPPATH\Controllers\Simproka1.php(270): App\Controllers\Simproka1->dataGeneral()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:14:00 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 142.
+ 1 APPPATH\Controllers\Simproka1.php(142): array_push(2, [...])
+ 2 APPPATH\Controllers\Simproka1.php(270): App\Controllers\Simproka1->dataGeneral()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:14:06 --> array_push(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Controllers\Simproka1.php on line 142.
+ 1 APPPATH\Controllers\Simproka1.php(142): array_push(2, [...])
+ 2 APPPATH\Controllers\Simproka1.php(270): App\Controllers\Simproka1->dataGeneral()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:18:21 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Simproka1.php on line 149.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Simproka1.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Simproka1')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Simproka1')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Simproka1', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:21:09 --> Undefined variable $ket_pengguna
+in APPPATH\Views\layout\header.php on line 136.
+ 1 APPPATH\Views\layout\header.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ket_pengguna', 'APPPATH\\Views\\layout\\header.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/header', null, true)
+ 5 APPPATH\Views\pages\simproka1.php(3): CodeIgniter\View\View->include('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 9 APPPATH\Controllers\Simproka1.php(315): view('pages/simproka1', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:22:01 --> Undefined variable $dataAll
+in APPPATH\Controllers\Simproka1.php on line 149.
+ 1 APPPATH\Controllers\Simproka1.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataAll', 'APPPATH\\Controllers\\Simproka1.php', 149)
+ 2 APPPATH\Controllers\Simproka1.php(319): App\Controllers\Simproka1->dataGeneral()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:22:01 --> Undefined variable $dataAll
+in APPPATH\Controllers\Simproka1.php on line 149.
+ 1 APPPATH\Controllers\Simproka1.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataAll', 'APPPATH\\Controllers\\Simproka1.php', 149)
+ 2 APPPATH\Controllers\Simproka1.php(319): App\Controllers\Simproka1->dataGeneral()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->generalRedirect()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:23:47 --> Undefined variable $data
+in APPPATH\Views\pages\simproka1.php on line 321.
+ 1 APPPATH\Views\pages\simproka1.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\simproka1.php', 321)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(328): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:24:25 --> Undefined variable $data
+in APPPATH\Views\pages\simproka1.php on line 321.
+ 1 APPPATH\Views\pages\simproka1.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\simproka1.php', 321)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(328): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:24:29 --> Undefined variable $kode
+in APPPATH\Views\pages\simproka1.php on line 713.
+ 1 APPPATH\Views\pages\simproka1.php(713): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\pages\\simproka1.php', 713)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(328): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:25:13 --> Undefined variable $kode
+in APPPATH\Views\pages\simproka1.php on line 713.
+ 1 APPPATH\Views\pages\simproka1.php(713): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\pages\\simproka1.php', 713)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(328): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:31:07 --> anotherDB is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\SatkerModel.php(11): CodeIgniter\Database\Config::connect('anotherDB', true)
+ 2 APPPATH\Controllers\Satker.php(9): App\Models\SatkerModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:52:11 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 892.
+ 1 APPPATH\Controllers\Simproka1.php(892): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 892)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:52:31 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 892.
+ 1 APPPATH\Controllers\Simproka1.php(892): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 892)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:55:19 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 892.
+ 1 APPPATH\Controllers\Simproka1.php(892): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 892)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:57:12 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(207): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(892): App\Controllers\Simproka1->setData(Object(CodeIgniter\HTTP\RedirectResponse), Object(CodeIgniter\HTTP\RedirectResponse))
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:57:18 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(207): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(892): App\Controllers\Simproka1->setData(Object(CodeIgniter\HTTP\RedirectResponse), Object(CodeIgniter\HTTP\RedirectResponse))
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 07:58:12 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(207): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(274): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 07:58:12 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(207): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(274): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 07:58:22 --> Undefined array key "DK.4470.BEI"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4470.BEI"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(328): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 08:02:35 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 892.
+ 1 APPPATH\Controllers\Simproka1.php(892): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 892)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 08:03:29 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 892.
+ 1 APPPATH\Controllers\Simproka1.php(892): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 892)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 08:04:16 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 892.
+ 1 APPPATH\Controllers\Simproka1.php(892): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 892)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 08:47:54 --> anotherDB is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\SatkerModel.php(11): CodeIgniter\Database\Config::connect('anotherDB', true)
+ 2 APPPATH\Controllers\Satker.php(9): App\Models\SatkerModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 08:48:43 --> anotherDB is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\SatkerModel.php(11): CodeIgniter\Database\Config::connect('anotherDB', true)
+ 2 APPPATH\Controllers\Satker.php(9): App\Models\SatkerModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 08:49:17 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(207): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(274): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 08:49:17 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(207): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(274): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 08:50:56 --> anotherDB is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\SatkerModel.php(11): CodeIgniter\Database\Config::connect('anotherDB', true)
+ 2 APPPATH\Controllers\Satker.php(9): App\Models\SatkerModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 11:52:28 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php on line 328
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Simproka1.php(328): view('pages/simproka1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:03:32 --> Undefined array key "DK.4470.BEI"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4470.BEI"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(340): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:03:35 --> Undefined array key "DK.4470.BEI"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4470.BEI"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(340): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:03:37 --> Undefined array key "DK.4470.BEI"
+in APPPATH\Views\pages\simproka1.php on line 430.
+ 1 APPPATH\Views\pages\simproka1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DK.4470.BEI"', 'APPPATH\\Views\\pages\\simproka1.php', 430)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simproka1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simproka1', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(340): view('pages/simproka1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:06:02 --> Undefined variable $data
+in APPPATH\Views\pages\simprokaFormInput.php on line 2.
+ 1 APPPATH\Views\pages\simprokaFormInput.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\simprokaFormInput.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simprokaFormInput.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simprokaFormInput', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(58): view('pages/simprokaFormInput', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:06:05 --> Undefined variable $data
+in APPPATH\Views\pages\simprokaFormInput.php on line 2.
+ 1 APPPATH\Views\pages\simprokaFormInput.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\simprokaFormInput.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simprokaFormInput.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simprokaFormInput', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(58): view('pages/simprokaFormInput', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:06:07 --> Undefined variable $data
+in APPPATH\Views\pages\simprokaFormInput.php on line 2.
+ 1 APPPATH\Views\pages\simprokaFormInput.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\simprokaFormInput.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\simprokaFormInput.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/simprokaFormInput', [], true)
+ 5 APPPATH\Controllers\Simproka1.php(58): view('pages/simprokaFormInput', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:11:57 --> anotherDB is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\SatkerModel.php(11): CodeIgniter\Database\Config::connect('anotherDB', true)
+ 2 APPPATH\Controllers\Satker.php(9): App\Models\SatkerModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:13:55 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 898.
+ 1 APPPATH\Controllers\Simproka1.php(898): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 898)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:33:56 --> Undefined array key "kro"
+in APPPATH\Controllers\Simproka1.php on line 863.
+ 1 APPPATH\Controllers\Simproka1.php(863): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kro"', 'APPPATH\\Controllers\\Simproka1.php', 863)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-09 23:44:48 --> anotherDB is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\SatkerModel.php(11): CodeIgniter\Database\Config::connect('anotherDB', true)
+ 2 APPPATH\Controllers\Satker.php(9): App\Models\SatkerModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-09 23:54:47 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(211): App\Models\BaseModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(278): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-09 23:54:47 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\BaseModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(211): App\Models\BaseModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(278): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

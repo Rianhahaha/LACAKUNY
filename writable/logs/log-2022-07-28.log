@@ -1,0 +1,495 @@
+CRITICAL - 2022-07-28 14:59:21 --> syntax error, unexpected ';', expecting ')'
+in APPPATH/Controllers/Simproka.php on line 427.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 14:59:31 --> syntax error, unexpected ';', expecting ')'
+in APPPATH/Controllers/Simproka.php on line 427.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:05:58 --> syntax error, unexpected ')'
+in APPPATH/Controllers/Simproka.php on line 450.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:11:33 --> syntax error, unexpected '}'
+in APPPATH/Controllers/Simproka.php on line 735.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:11:56 --> syntax error, unexpected '}'
+in APPPATH/Controllers/Simproka.php on line 736.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:12:26 --> syntax error, unexpected '}'
+in APPPATH/Controllers/Simproka.php on line 738.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:18:03 --> syntax error, unexpected ';', expecting ']'
+in APPPATH/Controllers/Simproka.php on line 452.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 15:51:01 --> Undefined variable: hapusDokumen
+in APPPATH/Controllers/Kinerja.php on line 519.
+ 1 APPPATH/Controllers/Kinerja.php(519): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteAll()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 16:26:24 --> Undefined variable: akhir
+in APPPATH/Views/pages/simproka.php on line 334.
+ 1 APPPATH/Views/pages/simproka.php(334): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(105): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 16:35:19 --> syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Views/pages/simproka.php on line 342.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Simproka.php(102): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 16:52:44 --> syntax error, unexpected '{'
+in APPPATH/Controllers/Simproka.php on line 558.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 16:53:47 --> Undefined variable: kodeSebelum
+in APPPATH/Views/pages/simproka.php on line 1069.
+ 1 APPPATH/Views/pages/simproka.php(1069): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(106): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 16:58:27 --> Undefined index: kodeSebelum
+in APPPATH/Controllers/Simproka.php on line 100.
+ 1 APPPATH/Controllers/Simproka.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:10:42 --> Undefined index: kodeSebelum
+in APPPATH/Controllers/Simproka.php on line 102.
+ 1 APPPATH/Controllers/Simproka.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:15:15 --> Undefined variable: valX
+in APPPATH/Controllers/Simproka.php on line 105.
+ 1 APPPATH/Controllers/Simproka.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:15:32 --> Undefined variable: paramX
+in APPPATH/Controllers/Simproka.php on line 106.
+ 1 APPPATH/Controllers/Simproka.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-28 17:15:41 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;kode&quot; does not exist
+LINE 4: AND &quot;kode&quot; = 'DK.4471.CAA.001.051.C                         ...
+            ^ in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/app/Models/SimprokaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp3/app/Controllers/Simproka.php(106): App\Models\SimprokaModel->updateAll()
+#7 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Simproka->index()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-28 17:15:41 --> pg_query(): Query failed: ERROR:  column &quot;kode&quot; does not exist
+LINE 4: AND &quot;kode&quot; = 'DK.4471.CAA.001.051.C                         ...
+            ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/SimprokaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH/Controllers/Simproka.php(106): App\Models\SimprokaModel->updateAll()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-28 17:16:23 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;kode&quot; does not exist
+LINE 4: AND &quot;kode&quot; = 'DK.4471.CAA.001.051.C'
+            ^ in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/app/Models/SimprokaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp3/app/Controllers/Simproka.php(106): App\Models\SimprokaModel->updateAll()
+#7 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Simproka->index()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-28 17:16:23 --> pg_query(): Query failed: ERROR:  column &quot;kode&quot; does not exist
+LINE 4: AND &quot;kode&quot; = 'DK.4471.CAA.001.051.C'
+            ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/SimprokaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH/Controllers/Simproka.php(106): App\Models\SimprokaModel->updateAll()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-28 17:17:07 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;kode&quot; does not exist
+LINE 4: AND &quot;kode&quot; = 'DK.4471.CAA.001.051.C                         ...
+            ^ in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/app/Models/SimprokaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp3/app/Controllers/Simproka.php(106): App\Models\SimprokaModel->updateAll()
+#7 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Simproka->index()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-28 17:17:07 --> pg_query(): Query failed: ERROR:  column &quot;kode&quot; does not exist
+LINE 4: AND &quot;kode&quot; = 'DK.4471.CAA.001.051.C                         ...
+            ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/SimprokaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH/Controllers/Simproka.php(106): App\Models\SimprokaModel->updateAll()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:18:14 --> Undefined variable: lastData
+in APPPATH/Controllers/Simproka.php on line 98.
+ 1 APPPATH/Controllers/Simproka.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:19:22 --> Undefined variable: kodeSebelum
+in APPPATH/Views/pages/simproka.php on line 1069.
+ 1 APPPATH/Views/pages/simproka.php(1069): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(116): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:19:42 --> Undefined variable: kodeSebelum
+in APPPATH/Views/pages/simproka.php on line 1069.
+ 1 APPPATH/Views/pages/simproka.php(1069): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(116): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:19:43 --> Undefined variable: kodeSebelum
+in APPPATH/Views/pages/simproka.php on line 1069.
+ 1 APPPATH/Views/pages/simproka.php(1069): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(116): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:19:44 --> Undefined variable: kodeSebelum
+in APPPATH/Views/pages/simproka.php on line 1069.
+ 1 APPPATH/Views/pages/simproka.php(1069): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(116): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:19:46 --> Undefined variable: kodeSebelum
+in APPPATH/Views/pages/simproka.php on line 1069.
+ 1 APPPATH/Views/pages/simproka.php(1069): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(116): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:21:08 --> Undefined variable: before
+in APPPATH/Views/pages/simproka.php on line 341.
+ 1 APPPATH/Views/pages/simproka.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(112): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:22:55 --> Undefined variable: before
+in APPPATH/Views/pages/simproka.php on line 341.
+ 1 APPPATH/Views/pages/simproka.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(112): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:38:21 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Simproka.php(110): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:38:57 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Simproka.php(110): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:40:05 --> Undefined index: /kinerja
+in APPPATH/Controllers/Simproka.php on line 110.
+ 1 APPPATH/Controllers/Simproka.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:40:24 --> Undefined index: kinerja
+in APPPATH/Controllers/Simproka.php on line 110.
+ 1 APPPATH/Controllers/Simproka.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:42:18 --> Undefined variable: trueLast
+in APPPATH/Controllers/Simproka.php on line 102.
+ 1 APPPATH/Controllers/Simproka.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:42:46 --> Undefined variable: request
+in APPPATH/Controllers/Simproka.php on line 111.
+ 1 APPPATH/Controllers/Simproka.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:42:49 --> Undefined variable: request
+in APPPATH/Controllers/Simproka.php on line 111.
+ 1 APPPATH/Controllers/Simproka.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:45:03 --> Undefined property: App\Controllers\Simproka::$uri
+in APPPATH/Controllers/Simproka.php on line 111.
+ 1 APPPATH/Controllers/Simproka.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:48:49 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Simproka.php(111): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:49:23 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Simproka.php(111): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:51:05 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Simproka.php(112): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 17:55:06 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 56.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH/Common.php(863): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH/Controllers/Simproka.php(112): redirect()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 18:04:46 --> syntax error, unexpected 'kode' (T_STRING), expecting ')'
+in APPPATH/Controllers/Simproka.php on line 115.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 20:44:40 --> Undefined variable: kode
+in APPPATH/Controllers/Simproka.php on line 162.
+ 1 APPPATH/Controllers/Simproka.php(162): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 20:57:48 --> Undefined variable: kode
+in APPPATH/Views/pages/simproka.php on line 695.
+ 1 APPPATH/Views/pages/simproka.php(695): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(170): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 20:57:50 --> Undefined variable: kode
+in APPPATH/Views/pages/simproka.php on line 695.
+ 1 APPPATH/Views/pages/simproka.php(695): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(170): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 20:57:50 --> Undefined variable: kode
+in APPPATH/Views/pages/simproka.php on line 695.
+ 1 APPPATH/Views/pages/simproka.php(695): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(170): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 20:57:50 --> Undefined variable: kode
+in APPPATH/Views/pages/simproka.php on line 695.
+ 1 APPPATH/Views/pages/simproka.php(695): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(170): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 20:57:51 --> Undefined variable: kode
+in APPPATH/Views/pages/simproka.php on line 695.
+ 1 APPPATH/Views/pages/simproka.php(695): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(170): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 21:02:04 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/ciapp3/app/Controllers/Simproka.php on line 35
+in SYSTEMPATH/Common.php on line 1121.
+ 1 APPPATH/Controllers/Simproka.php(35): view()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-28 21:02:08 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/ciapp3/app/Controllers/Simproka.php on line 35
+in SYSTEMPATH/Common.php on line 1121.
+ 1 APPPATH/Controllers/Simproka.php(35): view()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

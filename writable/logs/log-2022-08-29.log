@@ -1,0 +1,24 @@
+CRITICAL - 2022-08-29 07:42:19 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in /var/www/ciapp3/app/Views/pages/simproka-edit.php on line 368
+in SYSTEMPATH/Helpers/array_helper.php on line 21.
+ 1 APPPATH/Views/pages/simproka-edit.php(368): dot_array_search()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka-edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(92): view()
+ 6 APPPATH/Controllers/Simproka.php(85): App\Controllers\Simproka->edit()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->editPage()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-29 07:42:26 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in /var/www/ciapp3/app/Views/pages/simproka-edit.php on line 368
+in SYSTEMPATH/Helpers/array_helper.php on line 21.
+ 1 APPPATH/Views/pages/simproka-edit.php(368): dot_array_search()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka-edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(92): view()
+ 6 APPPATH/Controllers/Simproka.php(85): App\Controllers\Simproka->edit()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->editPage()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

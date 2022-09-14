@@ -1,0 +1,291 @@
+CRITICAL - 2022-07-25 02:15:45 --> Undefined property: App\Controllers\Simproka::$KinerjaModel
+in APPPATH/Controllers/Simproka.php on line 430.
+ 1 APPPATH/Controllers/Simproka.php(430): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->deleteAll()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-25 02:24:59 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;siste&quot; does not exist
+LINE 3: AND &quot;siste&quot; = 7
+            ^
+HINT:  Perhaps you meant to reference the column &quot;simproka.sistem&quot;. in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Builder.php(205): CodeIgniter\Database\BaseBuilder->delete()
+#6 /var/www/ciapp3/app/Models/SimprokaModel.php(36): CodeIgniter\Database\Postgre\Builder->delete()
+#7 /var/www/ciapp3/app/Controllers/Simproka.php(432): App\Models\SimprokaModel->deleteAll()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Simproka->deleteAll()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-25 02:24:59 --> pg_query(): Query failed: ERROR:  column &quot;siste&quot; does not exist
+LINE 3: AND &quot;siste&quot; = 7
+            ^
+HINT:  Perhaps you meant to reference the column &quot;simproka.sistem&quot;.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Database/Postgre/Builder.php(205): CodeIgniter\Database\BaseBuilder->delete()
+ 7 APPPATH/Models/SimprokaModel.php(36): CodeIgniter\Database\Postgre\Builder->delete()
+ 8 APPPATH/Controllers/Simproka.php(432): App\Models\SimprokaModel->deleteAll()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->deleteAll()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 02:51:56 --> Undefined variable: dataFilter
+in APPPATH/Controllers/Simproka.php on line 85.
+ 1 APPPATH/Controllers/Simproka.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 02:52:12 --> Undefined variable: dataFilter
+in APPPATH/Controllers/Simproka.php on line 85.
+ 1 APPPATH/Controllers/Simproka.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 02:52:13 --> Undefined variable: dataFilter
+in APPPATH/Controllers/Simproka.php on line 85.
+ 1 APPPATH/Controllers/Simproka.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 02:52:16 --> Undefined variable: dataFilter
+in APPPATH/Controllers/Simproka.php on line 85.
+ 1 APPPATH/Controllers/Simproka.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 03:12:37 --> Undefined variable: simproka
+in APPPATH/Controllers/Simproka.php on line 94.
+ 1 APPPATH/Controllers/Simproka.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:23:51 --> Undefined index: iku
+in APPPATH/Views/pages/simproka.php on line 338.
+ 1 APPPATH/Views/pages/simproka.php(338): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(91): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:24:12 --> Undefined variable: doc
+in APPPATH/Views/pages/simproka.php on line 499.
+ 1 APPPATH/Views/pages/simproka.php(499): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(91): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:25:30 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+in APPPATH/Views/pages/simproka.php on line 575.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Simproka.php(91): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:26:25 --> Undefined variable: i
+in APPPATH/Views/pages/simproka.php on line 564.
+ 1 APPPATH/Views/pages/simproka.php(564): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(91): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:05:34 --> Undefined property: App\Controllers\Simproka::$KinerjaModel
+in APPPATH/Controllers/Simproka.php on line 47.
+ 1 APPPATH/Controllers/Simproka.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:16:13 --> Undefined index: id_pengguna
+in APPPATH/Views/pages/simproka.php on line 751.
+ 1 APPPATH/Views/pages/simproka.php(751): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:17:12 --> Undefined index: id_pengguna
+in APPPATH/Views/pages/simproka.php on line 751.
+ 1 APPPATH/Views/pages/simproka.php(751): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:17:14 --> Undefined index: id_pengguna
+in APPPATH/Views/pages/simproka.php on line 751.
+ 1 APPPATH/Views/pages/simproka.php(751): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:17:15 --> Undefined index: id_pengguna
+in APPPATH/Views/pages/simproka.php on line 751.
+ 1 APPPATH/Views/pages/simproka.php(751): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:17:16 --> Undefined index: id_pengguna
+in APPPATH/Views/pages/simproka.php on line 751.
+ 1 APPPATH/Views/pages/simproka.php(751): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:17:25 --> Undefined index: id_pengguna
+in APPPATH/Views/pages/simproka.php on line 751.
+ 1 APPPATH/Views/pages/simproka.php(751): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:17:40 --> Undefined index: id_pengguna
+in APPPATH/Views/pages/simproka.php on line 751.
+ 1 APPPATH/Views/pages/simproka.php(751): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:18:22 --> Undefined index: id
+in APPPATH/Controllers/Simproka.php on line 647.
+ 1 APPPATH/Controllers/Simproka.php(647): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->storeMultipleFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:20:07 --> Undefined index: kode
+in APPPATH/Controllers/Simproka.php on line 647.
+ 1 APPPATH/Controllers/Simproka.php(647): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->storeMultipleFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:20:27 --> Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/Simproka.php on line 644.
+ 1 APPPATH/Controllers/Simproka.php(644): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->storeMultipleFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:43:49 --> Undefined index: lokasi
+in APPPATH/Controllers/Simproka.php on line 710.
+ 1 APPPATH/Controllers/Simproka.php(710): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->downloadFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:44:02 --> Undefined index: lokasi
+in APPPATH/Controllers/Simproka.php on line 710.
+ 1 APPPATH/Controllers/Simproka.php(710): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->downloadFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:45:03 --> Undefined index: lokasi
+in APPPATH/Controllers/Simproka.php on line 710.
+ 1 APPPATH/Controllers/Simproka.php(710): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->downloadFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:49:20 --> Undefined index: kode
+in APPPATH/Controllers/Simproka.php on line 686.
+ 1 APPPATH/Controllers/Simproka.php(686): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->deleteDokumen()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 05:53:47 --> Undefined variable: totaldoc
+in APPPATH/Controllers/Simproka.php on line 137.
+ 1 APPPATH/Controllers/Simproka.php(137): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Simproka.php(52): App\Controllers\Simproka->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:12:17 --> Undefined index: progress
+in APPPATH/Views/pages/simproka.php on line 341.
+ 1 APPPATH/Views/pages/simproka.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 21:58:03 --> Call to a member function hasError() on null
+in APPPATH/Views/pages/simproka.php on line 110.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Simproka.php(98): view()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 21:58:06 --> Call to a member function hasError() on null
+in APPPATH/Views/pages/simproka.php on line 110.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Simproka.php(98): view()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,566 @@
+CRITICAL - 2022-07-12 02:56:38 --> Undefined index: index
+in APPPATH/Controllers/Kinerja1.php on line 477.
+ 1 APPPATH/Controllers/Kinerja1.php(477): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->downloadFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:00:27 --> Undefined index: index
+in APPPATH/Controllers/Kinerja1.php on line 394.
+ 1 APPPATH/Controllers/Kinerja1.php(394): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->downloadImage()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:00:37 --> Undefined index: index
+in APPPATH/Controllers/Kinerja1.php on line 394.
+ 1 APPPATH/Controllers/Kinerja1.php(394): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->downloadImage()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:01:15 --> Undefined index: index
+in APPPATH/Controllers/Kinerja1.php on line 394.
+ 1 APPPATH/Controllers/Kinerja1.php(394): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->downloadImage()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:14:13 --> Undefined property: App\Controllers\Kinerja1::$IndikatorKinerjaModel
+in APPPATH/Controllers/Kinerja1.php on line 120.
+ 1 APPPATH/Controllers/Kinerja1.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:48:45 --> Undefined variable: paramsSP
+in APPPATH/Controllers/Kinerja1.php on line 48.
+ 1 APPPATH/Controllers/Kinerja1.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-12 05:06:13 --> ErrorException: pg_query(): Query failed: ERROR:  column sk.iku does not exist
+LINE 16: AND &quot;sk&quot;.&quot;iku&quot; = '(IKU 1.1)                                 ...
+             ^
+HINT:  Perhaps you meant to reference the column &quot;iku.iku&quot;. in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/app/Models/KinerjaModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp3/app/Controllers/Kinerja1.php(49): App\Models\KinerjaModel->getIKK()
+#7 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-12 05:06:13 --> pg_query(): Query failed: ERROR:  column sk.iku does not exist
+LINE 16: AND &quot;sk&quot;.&quot;iku&quot; = '(IKU 1.1)                                 ...
+             ^
+HINT:  Perhaps you meant to reference the column &quot;iku.iku&quot;.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/KinerjaModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH/Controllers/Kinerja1.php(49): App\Models\KinerjaModel->getIKK()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:08:43 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+in APPPATH/Views/pages/dev.php on line 336.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(62): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 05:20:17 --> Trying to get property 'iku' of non-object
+in APPPATH/Controllers/Kinerja1.php on line 47.
+ 1 APPPATH/Controllers/Kinerja1.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 19:53:31 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/Kinerja1.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 19:55:49 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/Kinerja1.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 19:55:54 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/Kinerja1.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 19:57:34 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/Kinerja1.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 19:58:24 --> syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Kinerja1.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 19:58:26 --> syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Kinerja1.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 19:59:58 --> syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Kinerja1.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 20:00:00 --> syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Kinerja1.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 20:05:42 --> Undefined variable: db
+in APPPATH/Controllers/Kinerja1.php on line 92.
+ 1 APPPATH/Controllers/Kinerja1.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 20:10:41 --> App\Controllers\Kinerja1::writeExcel(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/Kinerja1.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 20:15:21 --> Undefined variable: objSpreadsheet
+in APPPATH/Controllers/Kinerja1.php on line 85.
+ 1 APPPATH/Controllers/Kinerja1.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 20:44:40 --> Undefined variable: sheet
+in APPPATH/Controllers/Kinerja1.php on line 152.
+ 1 APPPATH/Controllers/Kinerja1.php(152): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:06:24 --> syntax error, unexpected '++' (T_INC), expecting ')'
+in APPPATH/Controllers/Kinerja1.php on line 165.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:06:26 --> syntax error, unexpected '++' (T_INC), expecting ')'
+in APPPATH/Controllers/Kinerja1.php on line 165.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:20:48 --> Undefined index: kode_iku
+in APPPATH/Controllers/Kinerja1.php on line 195.
+ 1 APPPATH/Controllers/Kinerja1.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:31:12 --> Undefined variable: phpExcelObject
+in APPPATH/Controllers/Kinerja1.php on line 224.
+ 1 APPPATH/Controllers/Kinerja1.php(224): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:31:47 --> Undefined variable: phpExcelObject
+in APPPATH/Controllers/Kinerja1.php on line 225.
+ 1 APPPATH/Controllers/Kinerja1.php(225): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:48:24 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Kinerja1.php on line 17.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:51:15 --> Return value of PhpOffice\PhpSpreadsheet\Worksheet\Row::getRowIndex() must be of the type int, string returned
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Row.php on line 46.
+ 1 APPPATH/Controllers/Kinerja1.php(292): PhpOffice\PhpSpreadsheet\Worksheet\Row->getRowIndex()
+ 2 APPPATH/Controllers/Kinerja1.php(232): App\Controllers\Kinerja1->autofitRowHeight()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 21:54:41 --> Undefined variable: rowDimension
+in APPPATH/Controllers/Kinerja1.php on line 293.
+ 1 APPPATH/Controllers/Kinerja1.php(293): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(230): App\Controllers\Kinerja1->autofitRowHeight()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-12 22:32:12 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;tahun&quot; does not exist
+LINE 3: WHERE &quot;tahun&quot; = '2022'
+              ^ in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/app/Models/KinerjaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp3/app/Controllers/Kinerja1.php(516): App\Models\KinerjaModel->getAll()
+#7 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-12 22:32:12 --> pg_query(): Query failed: ERROR:  column &quot;tahun&quot; does not exist
+LINE 3: WHERE &quot;tahun&quot; = '2022'
+              ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/KinerjaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH/Controllers/Kinerja1.php(516): App\Models\KinerjaModel->getAll()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:32:40 --> A non well formed numeric value encountered
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:33:49 --> Undefined index: target_tw
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:35:57 --> Undefined index: capaian
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:36:54 --> syntax error, unexpected ''target_tw'' (T_CONSTANT_ENCAPSED_STRING)
+in APPPATH/Controllers/Kinerja1.php on line 519.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:37:13 --> A non well formed numeric value encountered
+in APPPATH/Controllers/Kinerja1.php on line 519.
+ 1 APPPATH/Controllers/Kinerja1.php(519): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:38:19 --> Division by zero
+in APPPATH/Controllers/Kinerja1.php on line 519.
+ 1 APPPATH/Controllers/Kinerja1.php(519): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:41:19 --> Undefined variable: val
+in APPPATH/Controllers/Kinerja1.php on line 510.
+ 1 APPPATH/Controllers/Kinerja1.php(510): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:42:56 --> Undefined variable: val
+in APPPATH/Controllers/Kinerja1.php on line 510.
+ 1 APPPATH/Controllers/Kinerja1.php(510): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:43:59 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, float given, called in /var/www/ciapp3/app/Models/KinerjaModel.php on line 28
+in SYSTEMPATH/Database/BaseBuilder.php on line 2019.
+ 1 APPPATH/Models/KinerjaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+ 2 APPPATH/Controllers/Kinerja1.php(521): App\Models\KinerjaModel->updateAll()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:50:05 --> Division by zero
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:50:19 --> Division by zero
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:50:38 --> Division by zero
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:51:39 --> Division by zero
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:51:40 --> Division by zero
+in APPPATH/Controllers/Kinerja1.php on line 518.
+ 1 APPPATH/Controllers/Kinerja1.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:57:23 --> Undefined index: O
+in APPPATH/Controllers/Kinerja1.php on line 272.
+ 1 APPPATH/Controllers/Kinerja1.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 22:57:37 --> Undefined index: O
+in APPPATH/Controllers/Kinerja1.php on line 272.
+ 1 APPPATH/Controllers/Kinerja1.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:11:21 --> Undefined variable: d
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 APPPATH/Views/pages/dev.php(355): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:12:39 --> Undefined variable: d
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 APPPATH/Views/pages/dev.php(355): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:12:42 --> Undefined variable: d
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 APPPATH/Views/pages/dev.php(355): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:12:44 --> Undefined variable: d
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 APPPATH/Views/pages/dev.php(355): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:13:23 --> Undefined variable: d
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 APPPATH/Views/pages/dev.php(355): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:13:25 --> Undefined variable: d
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 APPPATH/Views/pages/dev.php(355): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:24:25 --> Function name must be a string
+in APPPATH/Views/pages/dev.php on line 353.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Kinerja1.php(65): view()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:43:34 --> syntax error, unexpected ';'
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:47:21 --> syntax error, unexpected ')'
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:47:46 --> syntax error, unexpected ')'
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:50:33 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:52:22 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:52:54 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 356.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:53:23 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 356.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:53:37 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 356.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:53:54 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 356.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:54:08 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:54:26 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 356.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:54:43 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 23:55:21 --> syntax error, unexpected '}'
+in APPPATH/Views/pages/dev.php on line 355.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(65): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

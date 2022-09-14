@@ -1,0 +1,994 @@
+CRITICAL - 2022-06-23 01:13:22 --> Too few arguments to function App\Controllers\Satker::edit(), 0 passed in /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php on line 896 and exactly 2 expected
+in APPPATH/Controllers/Satker.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 01:48:16 --> syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Controllers/Satker.php on line 32.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 01:49:21 --> syntax error, unexpected '$i' (T_VARIABLE)
+in APPPATH/Controllers/Satker.php on line 34.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 01:49:48 --> syntax error, unexpected '}'
+in APPPATH/Controllers/Satker.php on line 35.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 01:50:19 --> Undefined index: value
+in APPPATH/Controllers/Satker.php on line 32.
+ 1 APPPATH/Controllers/Satker.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 01:59:19 --> syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Controllers/Satker.php on line 30.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 01:59:39 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH/Controllers/Satker.php on line 34.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 02:09:05 --> syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Controllers/Satker.php on line 37.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 02:13:30 --> syntax error, unexpected '$i' (T_VARIABLE)
+in APPPATH/Controllers/Satker.php on line 36.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 02:20:18 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432indikator_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432indikator_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(66): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 02:20:18 --> pg_query(): Query failed: ERROR:  relation &quot;5432indikator_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432indikator_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 02:34:41 --> Undefined offset: 1
+in APPPATH/Controllers/Satker.php on line 33.
+ 1 APPPATH/Controllers/Satker.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 02:42:18 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432sasaran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432sasaran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/vendor/codeigniter4/framework/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/ciapp/app/Controllers/Kinerja.php(43): CodeIgniter\BaseModel->findAll()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-23 02:42:18 --> pg_query(): Query failed: ERROR:  relation &quot;5432sasaran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432sasaran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 8 APPPATH/Controllers/Kinerja.php(43): CodeIgniter\BaseModel->findAll()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 02:42:28 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432sasaran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432sasaran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/vendor/codeigniter4/framework/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/ciapp/app/Controllers/Kinerja.php(43): CodeIgniter\BaseModel->findAll()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-23 02:42:28 --> pg_query(): Query failed: ERROR:  relation &quot;5432sasaran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432sasaran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 8 APPPATH/Controllers/Kinerja.php(43): CodeIgniter\BaseModel->findAll()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:02:14 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(68): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 03:02:14 --> pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(68): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:03:45 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(68): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 03:03:45 --> pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(68): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:05:53 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(68): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 03:05:53 --> pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(68): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:07:19 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432sasaran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432sasaran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/vendor/codeigniter4/framework/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/ciapp/app/Controllers/Kinerja.php(74): CodeIgniter\BaseModel->findAll()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-23 03:07:19 --> pg_query(): Query failed: ERROR:  relation &quot;5432sasaran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432sasaran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 8 APPPATH/Controllers/Kinerja.php(74): CodeIgniter\BaseModel->findAll()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:07:49 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/vendor/codeigniter4/framework/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/ciapp/app/Controllers/Kinerja.php(75): CodeIgniter\BaseModel->findAll()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-23 03:07:49 --> pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 8 APPPATH/Controllers/Kinerja.php(75): CodeIgniter\BaseModel->findAll()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:09:34 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 03:09:34 --> pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:10:33 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 03:10:33 --> pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 03:13:04 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 03:13:04 --> pg_query(): Query failed: ERROR:  relation &quot;5432pengukuran_kinerja&quot; does not exist
+LINE 2: FROM &quot;5432pengukuran_kinerja&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:16:07 --> Undefined index: indikator_kerja
+in APPPATH/Views/pages/debK.php on line 786.
+ 1 APPPATH/Views/pages/debK.php(786): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/debK.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:16:33 --> Undefined index: table_pic
+in APPPATH/Views/pages/debK.php on line 835.
+ 1 APPPATH/Views/pages/debK.php(835): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/debK.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:18:53 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+in APPPATH/Controllers/Kinerja.php on line 86.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:19:21 --> Class 'PhpOffice\PhpSpreadsheet\IOFactory' not found
+in APPPATH/Controllers/Kinerja.php on line 87.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:24:36 --> Class 'PhpOffice\PhpSpreadsheet\IOFactory' not found
+in APPPATH/Controllers/Kinerja.php on line 87.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:29:37 --> Class 'PhpOffice\PhpSpreadsheet\IOFactory' not found
+in APPPATH/Controllers/Kinerja.php on line 87.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:32:01 --> Class 'PhpOffice\PhpSpreadsheet\IOFactory' not found
+in APPPATH/Controllers/Kinerja.php on line 87.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 03:33:03 --> Class 'PhpOffice\PhpSpreadsheet\IOFactory' not found
+in APPPATH/Controllers/Kinerja.php on line 87.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:00:51 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /var/www/ciapp/app/Controllers/Kinerja.php on line 69
+in SYSTEMPATH/Database/BaseBuilder.php on line 1577.
+ 1 APPPATH/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:01:57 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /var/www/ciapp/app/Controllers/Kinerja.php on line 69
+in SYSTEMPATH/Database/BaseBuilder.php on line 1577.
+ 1 APPPATH/Controllers/Kinerja.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:05:29 --> Undefined index: user_id
+in APPPATH/Controllers/Kinerja.php on line 72.
+ 1 APPPATH/Controllers/Kinerja.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:07:28 --> Undefined variable: coba
+in APPPATH/Controllers/Kinerja.php on line 71.
+ 1 APPPATH/Controllers/Kinerja.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:07:53 --> Illegal string offset 'user_id'
+in APPPATH/Controllers/Kinerja.php on line 71.
+ 1 APPPATH/Controllers/Kinerja.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:10:18 --> Trying to get property 'query' of non-object
+in APPPATH/Controllers/Kinerja.php on line 73.
+ 1 APPPATH/Controllers/Kinerja.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:15:47 --> Undefined variable: builder
+in APPPATH/Controllers/Kinerja.php on line 71.
+ 1 APPPATH/Controllers/Kinerja.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:30:23 --> syntax error, unexpected '=', expecting ']'
+in APPPATH/Controllers/Kinerja.php on line 103.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:30:53 --> Undefined index: F
+in APPPATH/Controllers/Kinerja.php on line 105.
+ 1 APPPATH/Controllers/Kinerja.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:31:24 --> Undefined variable: target_pk
+in APPPATH/Controllers/Kinerja.php on line 116.
+ 1 APPPATH/Controllers/Kinerja.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:31:45 --> Undefined variable: target_pk
+in APPPATH/Controllers/Kinerja.php on line 118.
+ 1 APPPATH/Controllers/Kinerja.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:32:50 --> syntax error, unexpected '=', expecting ']'
+in APPPATH/Controllers/Kinerja.php on line 103.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:35:55 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+in APPPATH/Controllers/Kinerja.php on line 103.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:46:21 --> Undefined variable: builder
+in APPPATH/Controllers/Kinerja.php on line 112.
+ 1 APPPATH/Controllers/Kinerja.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 05:46:44 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 2: WHERE &quot;user_id&quot; = ('1235','2')
+                        ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(113): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 05:46:44 --> pg_query(): Query failed: ERROR:  operator does not exist: integer = record
+LINE 2: WHERE &quot;user_id&quot; = ('1235','2')
+                        ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(113): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:47:50 --> Undefined offset: 10
+in APPPATH/Controllers/Kinerja.php on line 103.
+ 1 APPPATH/Controllers/Kinerja.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:48:28 --> Undefined offset: 10
+in APPPATH/Controllers/Kinerja.php on line 103.
+ 1 APPPATH/Controllers/Kinerja.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 05:49:33 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;capaian_tw&quot; of relation &quot;pengukuran_kinerja&quot; violates not-null constraint
+DETAIL:  Failing row contains (1235, (IKU 1.2) Persentase lulusan S1 dan D4/D3/D2 yang menghabiskan p..., 60                                                              ..., 10                                                              ..., null, 20                                                              ..., BID.1 dan BID.3                                                 ..., Masih dalam proses update data                                  ..., 2). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(113): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 05:49:33 --> pg_query(): Query failed: ERROR:  null value in column &quot;capaian_tw&quot; of relation &quot;pengukuran_kinerja&quot; violates not-null constraint
+DETAIL:  Failing row contains (1235, (IKU 1.2) Persentase lulusan S1 dan D4/D3/D2 yang menghabiskan p..., 60                                                              ..., 10                                                              ..., null, 20                                                              ..., BID.1 dan BID.3                                                 ..., Masih dalam proses update data                                  ..., 2).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(113): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:50:51 --> Undefined offset: 10
+in APPPATH/Controllers/Kinerja.php on line 103.
+ 1 APPPATH/Controllers/Kinerja.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:52:18 --> Undefined offset: 10
+in APPPATH/Controllers/Kinerja.php on line 103.
+ 1 APPPATH/Controllers/Kinerja.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 05:55:19 --> Undefined offset: 10
+in APPPATH/Controllers/Kinerja.php on line 113.
+ 1 APPPATH/Controllers/Kinerja.php(113): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:01:54 --> Call to undefined function App\Controllers\reconnect()
+in APPPATH/Controllers/Kinerja.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:04:12 --> pg_ping(): No PostgreSQL link opened yet
+in SYSTEMPATH/Database/Postgre/Connection.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(90): pg_ping()
+ 3 APPPATH/Controllers/Kinerja.php(57): CodeIgniter\Database\Postgre\Connection->reconnect()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:20:26 --> Undefined property: App\Controllers\Kinerja::$db
+in APPPATH/Controllers/Kinerja.php on line 17.
+ 1 APPPATH/Controllers/Kinerja.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:20:38 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::order_by()
+in APPPATH/Controllers/Kinerja.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:21:54 --> Undefined property: App\Controllers\Kinerja::$bulder
+in APPPATH/Controllers/Kinerja.php on line 19.
+ 1 APPPATH/Controllers/Kinerja.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:21:55 --> Undefined property: App\Controllers\Kinerja::$bulder
+in APPPATH/Controllers/Kinerja.php on line 19.
+ 1 APPPATH/Controllers/Kinerja.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:22:10 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::order_by()
+in APPPATH/Controllers/Kinerja.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:22:11 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::order_by()
+in APPPATH/Controllers/Kinerja.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:22:12 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::order_by()
+in APPPATH/Controllers/Kinerja.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:22:12 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::order_by()
+in APPPATH/Controllers/Kinerja.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:22:13 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::order_by()
+in APPPATH/Controllers/Kinerja.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:30:23 --> Undefined offset: 1
+in APPPATH/Controllers/Satker.php on line 34.
+ 1 APPPATH/Controllers/Satker.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:32:34 --> Undefined variable: satker
+in APPPATH/Views/pages/info_satker.php on line 30.
+ 1 APPPATH/Views/pages/info_satker.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/info_satker.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Satker.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 07:32:38 --> Undefined variable: satker
+in APPPATH/Views/pages/info_satker.php on line 30.
+ 1 APPPATH/Views/pages/info_satker.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/info_satker.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Satker.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 07:46:33 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;presentase_tw&quot; of relation &quot;pengukuran_kinerja&quot; violates not-null constraint
+DETAIL:  Failing row contains (1238, (IKU 4.1) Rata-rata Predikat SAKIP Satker Minimal BB            ..., A                                                               ..., 10                                                              ..., 20                                                              ..., null, SPI                                                             ..., Masih dalam proses update data                                  ..., 9). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja.php(115): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 07:46:33 --> pg_query(): Query failed: ERROR:  null value in column &quot;presentase_tw&quot; of relation &quot;pengukuran_kinerja&quot; violates not-null constraint
+DETAIL:  Failing row contains (1238, (IKU 4.1) Rata-rata Predikat SAKIP Satker Minimal BB            ..., A                                                               ..., 10                                                              ..., 20                                                              ..., null, SPI                                                             ..., Masih dalam proses update data                                  ..., 9).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja.php(115): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 08:30:56 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(97): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-23 08:40:14 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;0&quot;
+LINE 1: UPDATE &quot;info_satker&quot; SET 0 = ('DITJEN PENDIDIKAN TINGGI, RIS...
+                                 ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Satker.php(39): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Satker->edit()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-23 08:40:14 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;0&quot;
+LINE 1: UPDATE &quot;info_satker&quot; SET 0 = ('DITJEN PENDIDIKAN TINGGI, RIS...
+                                 ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Satker.php(39): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 08:46:16 --> Undefined variable: dt
+in APPPATH/Controllers/Satker.php on line 37.
+ 1 APPPATH/Controllers/Satker.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 08:49:12 --> syntax error, unexpected ')'
+in APPPATH/Controllers/Satker.php on line 40.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 08:49:29 --> You must use the "set" method to update an entry.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2089.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2025): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH/Controllers/Satker.php(42): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:14:44 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 15.
+ 1 APPPATH/Views/pages/kinerja.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(55): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:18:30 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 15.
+ 1 APPPATH/Views/pages/kinerja.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(55): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:18:32 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 15.
+ 1 APPPATH/Views/pages/kinerja.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(55): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:18:59 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 15.
+ 1 APPPATH/Views/pages/kinerja.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(55): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:21:29 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 15.
+ 1 APPPATH/Views/pages/kinerja.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(55): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:34:19 --> Undefined variable: db
+in APPPATH/Controllers/Kinerja.php on line 74.
+ 1 APPPATH/Controllers/Kinerja.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:39:22 --> Undefined index: id_sk
+in APPPATH/Views/pages/debK.php on line 776.
+ 1 APPPATH/Views/pages/debK.php(776): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/debK.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 11:42:00 --> syntax error, unexpected '<'
+in APPPATH/Views/pages/debK.php on line 777.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(80): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 12:06:36 --> Undefined index: id_sk
+in APPPATH/Views/pages/debK.php on line 778.
+ 1 APPPATH/Views/pages/debK.php(778): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/debK.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 12:08:51 --> Undefined index: sasaran_kinerja
+in APPPATH/Views/pages/debK.php on line 781.
+ 1 APPPATH/Views/pages/debK.php(781): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/debK.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(80): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->getInfo()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 12:18:13 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(103): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 13:13:37 --> Cannot redeclare App\Controllers\Kinerja::index()
+in APPPATH/Controllers/Kinerja.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-06-23 22:19:44 --> Undefined variable: coba
+in APPPATH/Views/pages/kinerja.php on line 13.
+ 1 APPPATH/Views/pages/kinerja.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(55): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-23 23:09:02 --> Undefined index: 
+in APPPATH/Views/pages/kinerja.php on line 230.
+ 1 APPPATH/Views/pages/kinerja.php(230): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

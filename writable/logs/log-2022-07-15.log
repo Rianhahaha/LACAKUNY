@@ -1,0 +1,7 @@
+CRITICAL - 2022-07-15 02:06:21 --> Undefined property: App\Controllers\Kinerja::$KinerjaModel
+in APPPATH/Controllers/Kinerja.php on line 194.
+ 1 APPPATH/Controllers/Kinerja.php(194): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

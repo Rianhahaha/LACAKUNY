@@ -1,0 +1,67 @@
+CRITICAL - 2022-08-13 02:24:43 --> syntax error, unexpected '$kode' (T_VARIABLE)
+in APPPATH/Controllers/Simproka.php on line 499.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 02:25:01 --> syntax error, unexpected '$this' (T_VARIABLE)
+in APPPATH/Controllers/Simproka.php on line 500.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-13 02:25:36 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;kro&quot; of relation &quot;komponen&quot; does not exist
+LINE 1: ...lume_target&quot;, &quot;pic&quot;, &quot;sistem&quot;, &quot;tahun&quot;, &quot;detail&quot;, &quot;kro&quot;) VAL...
+                                                             ^ in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/app/Models/SimprokaModel.php(20): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/ciapp3/app/Controllers/Simproka.php(500): App\Models\SimprokaModel->insertAll()
+#7 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Simproka->readExcel()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-13 02:25:36 --> pg_query(): Query failed: ERROR:  column &quot;kro&quot; of relation &quot;komponen&quot; does not exist
+LINE 1: ...lume_target&quot;, &quot;pic&quot;, &quot;sistem&quot;, &quot;tahun&quot;, &quot;detail&quot;, &quot;kro&quot;) VAL...
+                                                             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/SimprokaModel.php(20): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/Simproka.php(500): App\Models\SimprokaModel->insertAll()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->readExcel()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 02:38:14 --> Undefined index: DK.4470.BEI.001.004
+in APPPATH/Views/pages/simproka.php on line 485.
+ 1 APPPATH/Views/pages/simproka.php(485): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Simproka.php(131): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 02:41:03 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/simproka.php on line 485.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Simproka.php(131): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

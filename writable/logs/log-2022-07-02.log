@@ -1,0 +1,167 @@
+CRITICAL - 2022-07-02 09:49:52 --> Unable to identify a reader for this file
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php on line 166.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 2 APPPATH/Controllers/Kinerja.php(76): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 10:41:38 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/kinerja.php on line 210.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 11:10:38 --> syntax error, unexpected '$ID' (T_VARIABLE)
+in APPPATH/Controllers/Kinerja.php on line 110.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 11:11:11 --> syntax error, unexpected '$id' (T_VARIABLE)
+in APPPATH/Controllers/Kinerja.php on line 110.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 11:11:42 --> syntax error, unexpected 'dd' (T_STRING)
+in APPPATH/Controllers/Kinerja.php on line 110.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 11:18:47 --> Undefined variable: ata
+in APPPATH/Models/IndikatorKinerjaModel.php on line 39.
+ 1 APPPATH/Models/IndikatorKinerjaModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(110): App\Models\IndikatorKinerjaModel->getID()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 11:18:59 --> Undefined variable: queryID
+in APPPATH/Controllers/Kinerja.php on line 111.
+ 1 APPPATH/Controllers/Kinerja.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 11:23:23 --> Trying to get property 'id_pengguna' of non-object
+in APPPATH/Controllers/Kinerja.php on line 99.
+ 1 APPPATH/Controllers/Kinerja.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-02 11:37:34 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;iku&quot; of relation &quot;pengukuran&quot; violates not-null constraint
+DETAIL:  Failing row contains (Persentase lulusan S1 dan D4/D3/D2/ yang berhasil mendapatkan pe..., 60                                                              ..., 0                                                               ..., 0                                                               ..., 0                                                               ..., LPMPP                                                           ..., null, 26, 1234, null, 2022, 1). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(60): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(126): App\Models\IndikatorKinerjaModel->insertExcel()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-02 11:37:34 --> pg_query(): Query failed: ERROR:  null value in column &quot;iku&quot; of relation &quot;pengukuran&quot; violates not-null constraint
+DETAIL:  Failing row contains (Persentase lulusan S1 dan D4/D3/D2/ yang berhasil mendapatkan pe..., 60                                                              ..., 0                                                               ..., 0                                                               ..., 0                                                               ..., LPMPP                                                           ..., null, 26, 1234, null, 2022, 1).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/IndikatorKinerjaModel.php(60): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/Kinerja.php(126): App\Models\IndikatorKinerjaModel->insertExcel()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 13:02:28 --> Undefined variable: dataSK
+in APPPATH/Controllers/Kinerja.php on line 150.
+ 1 APPPATH/Controllers/Kinerja.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 13:03:14 --> Undefined variable: dataSK
+in APPPATH/Controllers/Kinerja.php on line 152.
+ 1 APPPATH/Controllers/Kinerja.php(152): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 13:04:10 --> Undefined variable: OldSK
+in APPPATH/Controllers/Kinerja.php on line 140.
+ 1 APPPATH/Controllers/Kinerja.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 13:07:29 --> Undefined variable: OldSK
+in APPPATH/Controllers/Kinerja.php on line 144.
+ 1 APPPATH/Controllers/Kinerja.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 13:41:03 --> Undefined variable: idSK
+in APPPATH/Controllers/Kinerja.php on line 154.
+ 1 APPPATH/Controllers/Kinerja.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 13:41:50 --> Undefined variable: idSK
+in APPPATH/Controllers/Kinerja.php on line 155.
+ 1 APPPATH/Controllers/Kinerja.php(155): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 19:35:42 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH/Database/Postgre/Builder.php(205): CodeIgniter\Database\BaseBuilder->delete()
+ 2 APPPATH/Models/IndikatorKinerjaModel.php(71): CodeIgniter\Database\Postgre\Builder->delete()
+ 3 APPPATH/Controllers/Kinerja.php(202): App\Models\IndikatorKinerjaModel->deleteData()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteAll()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 19:48:26 --> syntax error, unexpected ';', expecting ']'
+in APPPATH/Controllers/Kinerja.php on line 206.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 22:19:31 --> Undefined index: O
+in APPPATH/Controllers/Kinerja.php on line 91.
+ 1 APPPATH/Controllers/Kinerja.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 22:19:59 --> Undefined index: O
+in APPPATH/Controllers/Kinerja.php on line 91.
+ 1 APPPATH/Controllers/Kinerja.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

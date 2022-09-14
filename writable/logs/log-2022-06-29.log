@@ -1,0 +1,357 @@
+CRITICAL - 2022-06-29 03:39:59 --> Call to undefined function App\Controllers\read_file()
+in APPPATH/Controllers/Kinerja.php on line 50.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readDoc()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 03:45:27 --> readfile(/uploads/file/1656473259_10fcfdcc04a4e94b7b7e.pdf): failed to open stream: No such file or directory
+in APPPATH/Controllers/Kinerja.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(51): readfile()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readDoc()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 03:47:35 --> readfile(/uploads/file/1656473259_10fcfdcc04a4e94b7b7e.pdf): failed to open stream: No such file or directory
+in APPPATH/Controllers/Kinerja.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(51): readfile()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readDoc()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 04:37:36 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/pages/kinerja.php on line 500.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(34): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 13:35:37 --> unlink(../public/uploads/1656470224_f0121c1d3da7e2430a42.jpeg                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ): File name too long
+in APPPATH/Controllers/Kinerja.php on line 302.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(302): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 13:53:33 --> unlink(../public/uploads/1656470224_f0121c1d3da7e2430a42.jpeg                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ): File name too long
+in APPPATH/Controllers/Kinerja.php on line 302.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(302): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 13:55:25 --> Undefined index: foto1
+in APPPATH/Controllers/Kinerja.php on line 296.
+ 1 APPPATH/Controllers/Kinerja.php(296): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 13:57:35 --> chmod(): File name too long
+in APPPATH/Controllers/Kinerja.php on line 304.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(304): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:01:03 --> An exception (RuntimeException) was thrown in /var/www/ciapp/vendor/kint-php/kint/src/Zval/Representation/SplFileInfoRepresentation.php on line 56 while executing Kint Parser Plugin "Kint\Parser\SplFileInfoPlugin". Error message: SplFileInfo::getPerms(): stat failed for /tmp/phpoY61gP
+in VENDORPATH/kint-php/kint/src/Parser/Parser.php on line 608.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/kint-php/kint/src/Parser/Parser.php(608): trigger_error()
+ 3 VENDORPATH/kint-php/kint/src/Parser/Parser.php(539): Kint\Parser\Parser->applyPlugins()
+ 4 VENDORPATH/kint-php/kint/src/Parser/Parser.php(138): Kint\Parser\Parser->parseObject()
+ 5 VENDORPATH/kint-php/kint/src/Kint.php(286): Kint\Parser\Parser->parse()
+ 6 VENDORPATH/kint-php/kint/src/Kint.php(267): Kint\Kint->dumpVar()
+ 7 VENDORPATH/kint-php/kint/src/Kint.php(590): Kint\Kint->dumpAll()
+ 8 SYSTEMPATH/Common.php(360): Kint\Kint::dump()
+ 9 APPPATH/Controllers/Kinerja.php(266): dd()
+10 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->storeMultipleImage()
+11 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:08:38 --> chmod(): No such file or directory
+in APPPATH/Controllers/Kinerja.php on line 304.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(304): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:12:57 --> chmod(): File name too long
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(305): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:14:21 --> chmod(): Operation not permitted
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(305): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:25:56 --> syntax error, unexpected '.'
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:26:14 --> Call to a member function rename() on string
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:26:43 --> Call to a member function rename() on string
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:28:35 --> rename(../public/uploads/1656470224_f0121c1d3da7e2430a42.jpeg                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ,../public/uploads/1): File name too long
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(305): rename()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:37:25 --> Call to a member function move() on string
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:50:56 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(307): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:51:48 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(307): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:54:27 --> Undefined variable: path
+in APPPATH/Controllers/Kinerja.php on line 305.
+ 1 APPPATH/Controllers/Kinerja.php(305): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 14:59:20 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(307): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:00:56 --> finfo_file(/var/www/ciapp/public/uploads/1656470224_f0121c1d3da7e2430a42.jpeg                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ): failed to open stream: File name too long
+in SYSTEMPATH/Files/File.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(114): finfo_file()
+ 3 APPPATH/Controllers/Kinerja.php(306): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:01:50 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(308): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:03:42 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(308): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:04:08 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(308): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:05:52 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(308): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:06:34 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(308): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:12:16 --> Call to undefined method CodeIgniter\Files\File::isValid()
+in APPPATH/Controllers/Kinerja.php on line 308.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:12:47 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(309): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:21:58 --> chmod(): File name too long
+in APPPATH/Controllers/Kinerja.php on line 312.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(312): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:22:01 --> chmod(): File name too long
+in APPPATH/Controllers/Kinerja.php on line 312.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(312): chmod()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:24:52 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(309): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:25:21 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(309): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:25:26 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(309): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:32:54 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Kinerja.php on line 308.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:33:39 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Kinerja.php on line 308.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:40:17 --> Call to undefined method CodeIgniter\Files\File::unlink()
+in APPPATH/Controllers/Kinerja.php on line 309.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:40:39 --> Call to undefined method CodeIgniter\Files\File::unlink()
+in APPPATH/Controllers/Kinerja.php on line 309.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:41:04 --> unlink(1656470224_f0121c1d3da7e2430a42.jpeg                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ): File name too long
+in APPPATH/Controllers/Kinerja.php on line 309.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(309): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:46:43 --> Call to a member function decrypt() on string
+in APPPATH/Controllers/Kinerja.php on line 307.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:48:17 --> Call to undefined method CodeIgniter\Files\File::decrypt()
+in APPPATH/Controllers/Kinerja.php on line 307.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:59:00 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(314): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:59:29 --> Call to undefined function App\Controllers\store()
+in APPPATH/Controllers/Kinerja.php on line 314.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 15:59:48 --> Call to undefined method CodeIgniter\Files\File::store()
+in APPPATH/Controllers/Kinerja.php on line 314.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 16:03:11 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(314): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 16:03:42 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(314): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-29 16:04:28 --> Trying to access array offset on value of type null
+in SYSTEMPATH/Files/File.php on line 148.
+ 1 SYSTEMPATH/Files/File.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja.php(314): CodeIgniter\Files\File->move()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->deleteImage()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

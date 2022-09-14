@@ -1,0 +1,538 @@
+ERROR - 2022-09-08 21:56:49 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-08 21:56:49 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-08 22:04:00 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #144, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-08 22:04:00 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:04:06 --> DBdev is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\KinerjaModel.php(12): CodeIgniter\Database\Config::connect('DBdev', true)
+ 2 APPPATH\Controllers\Kinerja.php(21): App\Models\KinerjaModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-08 22:05:50 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-08 22:05:50 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-08 22:06:17 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-08 22:06:17 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:06:24 --> anotherDB is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\SatkerModel.php(11): CodeIgniter\Database\Config::connect('anotherDB', true)
+ 2 APPPATH\Controllers\Satker.php(9): App\Models\SatkerModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Satker->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-08 22:08:12 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-08 22:08:12 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-08 22:10:50 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-08 22:10:50 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:12:43 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Simproka1.php on line 264.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-08 22:13:05 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 267.
+ 1 APPPATH\Controllers\Simproka1.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:14:11 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 7 SYSTEMPATH\Database\BaseConnection.php(639): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 8 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 9 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+10 APPPATH\Controllers\Simproka1.php(202): App\Models\SimprokaModel->getAll('ro', [...])
+11 APPPATH\Controllers\Simproka1.php(274): App\Controllers\Simproka1->setData([...], [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:24:56 --> Undefined variable $kro
+in APPPATH\Controllers\Simproka1.php on line 855.
+ 1 APPPATH\Controllers\Simproka1.php(855): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kro', 'APPPATH\\Controllers\\Simproka1.php', 855)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->insertSimproka()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:36:34 --> Too few arguments to function App\Models\SimprokaModel::dataEdit(), 0 passed in D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php on line 40 and exactly 1 expected
+in APPPATH\Models\SimprokaModel.php on line 17.
+ 1 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:36:40 --> Too few arguments to function App\Models\SimprokaModel::dataEdit(), 0 passed in D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php on line 40 and exactly 1 expected
+in APPPATH\Models\SimprokaModel.php on line 17.
+ 1 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:36:47 --> Too few arguments to function App\Models\SimprokaModel::dataEdit(), 0 passed in D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php on line 40 and exactly 1 expected
+in APPPATH\Models\SimprokaModel.php on line 17.
+ 1 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:36:49 --> Too few arguments to function App\Models\SimprokaModel::dataEdit(), 0 passed in D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php on line 40 and exactly 1 expected
+in APPPATH\Models\SimprokaModel.php on line 17.
+ 1 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:37:01 --> Too few arguments to function App\Models\SimprokaModel::dataEdit(), 0 passed in D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php on line 40 and exactly 1 expected
+in APPPATH\Models\SimprokaModel.php on line 17.
+ 1 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:38:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(20): CodeIgniter\Model->__get('tahun')
+ 4 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:38:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(20): CodeIgniter\Model->__get('tahun')
+ 4 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:38:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(20): CodeIgniter\Model->__get('tahun')
+ 4 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:38:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(20): CodeIgniter\Model->__get('tahun')
+ 4 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:40:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(20): CodeIgniter\Model->__get('tahun')
+ 4 APPPATH\Controllers\Simproka1.php(40): App\Models\SimprokaModel->dataEdit([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->formInput()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:41:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(14): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Controllers\Simproka1.php(20): App\Models\SimprokaModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Simproka1->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:45:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(14): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Controllers\Simproka1.php(20): App\Models\SimprokaModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Simproka1->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:45:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(14): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Controllers\Simproka1.php(20): App\Models\SimprokaModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Simproka1->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-08 22:45:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\SimprokaModel.php(14): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Controllers\Simproka1.php(20): App\Models\SimprokaModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Simproka1->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

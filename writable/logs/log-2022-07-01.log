@@ -1,0 +1,100 @@
+CRITICAL - 2022-07-01 10:53:54 --> Undefined variable: id_pengguna
+in APPPATH/Controllers/Kinerja.php on line 134.
+ 1 APPPATH/Controllers/Kinerja.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->saveCapaian()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 10:54:11 --> Undefined variable: id
+in APPPATH/Controllers/Kinerja.php on line 144.
+ 1 APPPATH/Controllers/Kinerja.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->saveCapaian()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-01 10:56:20 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;progres&quot; of relation &quot;kendala&quot; does not exist
+LINE 1: UPDATE &quot;kendala&quot; SET &quot;progres&quot; = ' coba ya'
+                             ^ in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Models/IndikatorKinerjaModel.php(88): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp/app/Controllers/Kinerja.php(144): App\Models\IndikatorKinerjaModel->editDetail()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja->saveDetail()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-01 10:56:20 --> pg_query(): Query failed: ERROR:  column &quot;progres&quot; of relation &quot;kendala&quot; does not exist
+LINE 1: UPDATE &quot;kendala&quot; SET &quot;progres&quot; = ' coba ya'
+                             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/IndikatorKinerjaModel.php(88): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH/Controllers/Kinerja.php(144): App\Models\IndikatorKinerjaModel->editDetail()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->saveDetail()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-01 11:17:46 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;sistem&quot; of relation &quot;foto&quot; violates not-null constraint
+DETAIL:  Failing row contains (166, Seminar KIMIA bg.jpg                                            ..., (IKU 1.1)                                                       ..., 1234, 2022, /uploads/1656692266_3fce92be09b892385962.jpg      , null). in /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp/app/Controllers/Kinerja2.php(311): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja2->storeMultipleImage()
+#7 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ciapp/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ciapp/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-01 11:17:46 --> pg_query(): Query failed: ERROR:  null value in column &quot;sistem&quot; of relation &quot;foto&quot; violates not-null constraint
+DETAIL:  Failing row contains (166, Seminar KIMIA bg.jpg                                            ..., (IKU 1.1)                                                       ..., 1234, 2022, /uploads/1656692266_3fce92be09b892385962.jpg      , null).
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Kinerja2.php(311): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja2->storeMultipleImage()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 11:41:22 --> Call to a member function withInput() on string
+in APPPATH/Controllers/Login.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Login->process()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 11:42:00 --> Undefined variable: tahun
+in APPPATH/Views/pages/kinerja.php on line 437.
+ 1 APPPATH/Views/pages/kinerja.php(437): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 11:43:18 --> Undefined variable: tahun
+in APPPATH/Views/pages/beranda.php on line 9.
+ 1 APPPATH/Views/pages/beranda.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/beranda.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

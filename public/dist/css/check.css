@@ -1,0 +1,22 @@
+.checkbox-teal [type="checkbox"]:checked + label:before {
+  border-color: transparent #009688 #009688 transparent;
+}
+
+.checkbox-warning-filled [type="checkbox"][class*="filled-in"]:checked + label:after {
+  border-color: #ff8800;
+  background-color: #ff8800;
+}
+
+.checkbox-rounded [type="checkbox"][class*="filled-in"] + label:after {
+  border-radius: 50%;
+}
+
+.checkbox-living-coral-filled [type="checkbox"][class*="filled-in"]:checked + label:after {
+  border-color: #ff6f61;
+  background-color: #ff6f61;
+}
+
+.checkbox-cerulean-blue-filled [type="checkbox"][class*="filled-in"]:checked + label:after {
+  border-color: #92aad0;
+  background-color: #92aad0;
+}

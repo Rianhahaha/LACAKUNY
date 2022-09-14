@@ -1,0 +1,245 @@
+CRITICAL - 2022-06-18 07:02:21 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:07:15 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:07:16 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:08:51 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:11:14 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:11:15 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:15:14 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:17:32 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:17:33 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:17:34 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:17:35 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:17:36 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:17:37 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:17:37 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Config/Routes.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:21:44 --> Use of undefined constant kinerja - assumed 'kinerja' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/pages/kinerja.php on line 324.
+ 1 APPPATH/Views/pages/kinerja.php(324): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->kinerja()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:22:15 --> Use of undefined constant kinerja - assumed 'kinerja' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/pages/kinerja.php on line 324.
+ 1 APPPATH/Views/pages/kinerja.php(324): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->kinerja()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:24:30 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 329.
+ 1 APPPATH/Views/pages/kinerja.php(329): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->kinerja()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:24:31 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 329.
+ 1 APPPATH/Views/pages/kinerja.php(329): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->kinerja()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:27:13 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 330.
+ 1 APPPATH/Views/pages/kinerja.php(330): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->kinerja()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:27:15 --> Undefined variable: validation
+in APPPATH/Views/pages/kinerja.php on line 330.
+ 1 APPPATH/Views/pages/kinerja.php(330): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->kinerja()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:31:18 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH/Controllers/Kinerja.php on line 20.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 07:31:45 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH/Controllers/Kinerja.php on line 20.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-18 08:38:18 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 3306?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 3306?
+ERROR - 2022-06-18 08:39:00 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "http://8.215.67.23/" to address: Name or service not known
+ERROR - 2022-06-18 08:41:25 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 3306?
+ERROR - 2022-06-18 08:49:10 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 09:01:38 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 09:20:57 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 09:39:52 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 09:53:53 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 09:54:37 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"
+ERROR - 2022-06-18 09:57:26 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 10:24:00 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 10:27:18 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 10:37:27 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 10:44:02 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 11:00:56 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out
+	Is the server running on host "8.215.67.23" and accepting
+	TCP/IP connections on port 5432?
+CRITICAL - 2022-06-18 20:46:50 --> Invalid file: layout/template.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/pages/simproka.php(1): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Pages.php(19): view()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->simproka()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 20:47:09 --> Invalid file: layout/template.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/pages/simproka.php(1): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/simproka.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Pages.php(19): view()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Pages->simproka()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-18 23:40:00 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 23:40:23 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?
+ERROR - 2022-06-18 23:40:51 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "root" to address: Temporary failure in name resolution
+ERROR - 2022-06-18 23:41:31 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "root@8.215.67.23" to address: Name or service not known
+ERROR - 2022-06-18 23:44:01 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "localhost:5432" to address: Name or service not known
+ERROR - 2022-06-18 23:46:26 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?

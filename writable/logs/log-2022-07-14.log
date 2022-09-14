@@ -1,0 +1,507 @@
+CRITICAL - 2022-07-14 12:23:07 --> syntax error, unexpected '$'
+in APPPATH/Views/layout/header.php on line 167.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/pages/dev.php(1): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Kinerja1.php(65): view()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 12:47:52 --> syntax error, unexpected ''doc'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Controllers/Kinerja1.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 12:53:05 --> Undefined index: index
+in APPPATH/Controllers/Kinerja1.php on line 458.
+ 1 APPPATH/Controllers/Kinerja1.php(458): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->saveDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 12:57:12 --> Undefined property: App\Controllers\Kinerja1::$countFiles
+in APPPATH/Controllers/Kinerja1.php on line 63.
+ 1 APPPATH/Controllers/Kinerja1.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 12:58:25 --> Undefined variable: iku
+in APPPATH/Controllers/Kinerja1.php on line 76.
+ 1 APPPATH/Controllers/Kinerja1.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 12:58:47 --> Undefined variable: iku
+in APPPATH/Controllers/Kinerja1.php on line 76.
+ 1 APPPATH/Controllers/Kinerja1.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 12:58:56 --> Undefined variable: iku
+in APPPATH/Controllers/Kinerja1.php on line 76.
+ 1 APPPATH/Controllers/Kinerja1.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 13:13:45 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension::getAlignment()
+in APPPATH/Controllers/Kinerja1.php on line 246.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 13:14:43 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension::getAlignment()
+in APPPATH/Controllers/Kinerja1.php on line 246.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 13:15:51 --> Undefined variable: objPHPExcel
+in APPPATH/Controllers/Kinerja1.php on line 247.
+ 1 APPPATH/Controllers/Kinerja1.php(247): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 13:20:26 --> Undefined variable: sheet
+in APPPATH/Controllers/Kinerja1.php on line 246.
+ 1 APPPATH/Controllers/Kinerja1.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->writeExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 13:26:51 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Controllers/Kinerja1.php on line 249.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 13:47:40 --> Undefined index: index
+in APPPATH/Controllers/Kinerja1.php on line 690.
+ 1 APPPATH/Controllers/Kinerja1.php(690): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->storeMultipleFile()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:12:10 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:12:29 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:12:33 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:13:00 --> Cannot use [] for reading
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-14 14:13:16 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:14:14 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:14:15 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:14:49 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:15:21 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:15:30 --> Undefined index: index
+in APPPATH/Controllers/Kinerja1.php on line 531.
+ 1 APPPATH/Controllers/Kinerja1.php(531): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->editIKK()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:15:47 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:15:48 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:16:14 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:16:22 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:16:23 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:16:25 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:16:34 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:16:45 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:17:06 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:17:06 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:21:39 --> Undefined variable: index
+in APPPATH/Views/pages/dev.php on line 745.
+ 1 APPPATH/Views/pages/dev.php(745): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(67): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:24:05 --> Undefined variable: x
+in APPPATH/Views/pages/dev.php on line 392.
+ 1 APPPATH/Views/pages/dev.php(392): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(67): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:30:52 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:30:58 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:30:59 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:31:00 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:34:31 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:34:35 --> Undefined variable: sumFiles
+in APPPATH/Controllers/Kinerja1.php on line 83.
+ 1 APPPATH/Controllers/Kinerja1.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:35:37 --> Cannot use a scalar value as an array
+in APPPATH/Controllers/Kinerja1.php on line 82.
+ 1 APPPATH/Controllers/Kinerja1.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Kinerja1.php(63): App\Controllers\Kinerja1->countFiles()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:22:50 --> Undefined index: id_pengguna1
+in APPPATH/Controllers/Kinerja1.php on line 767.
+ 1 APPPATH/Controllers/Kinerja1.php(767): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->ajukan()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-14 15:23:22 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;tahun&quot; does not exist
+LINE 2: WHERE &quot;tahun&quot; = '2022'
+              ^ in /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/ciapp3/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/ciapp3/app/Models/KinerjaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+#6 /var/www/ciapp3/app/Controllers/Kinerja1.php(771): App\Models\KinerjaModel->updateAll()
+#7 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(896): App\Controllers\Kinerja1->ajukan()
+#8 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ciapp3/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ciapp3/public/index.php(55): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-14 15:23:22 --> pg_query(): Query failed: ERROR:  column &quot;tahun&quot; does not exist
+LINE 2: WHERE &quot;tahun&quot; = '2022'
+              ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(135): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/KinerjaModel.php(28): CodeIgniter\Database\BaseBuilder->update()
+ 7 APPPATH/Controllers/Kinerja1.php(771): App\Models\KinerjaModel->updateAll()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->ajukan()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:38:43 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/pages/dev.php on line 364.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:39:41 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/pages/dev.php on line 362.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:41:26 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH/Views/pages/dev.php on line 318.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:41:42 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH/Views/pages/dev.php on line 318.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:42:08 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/pages/dev.php on line 361.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:42:40 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/pages/dev.php on line 361.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:43:14 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/pages/dev.php on line 361.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 15:44:38 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/pages/dev.php on line 364.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:21:39 --> syntax error, unexpected '?'
+in APPPATH/Views/pages/dev.php on line 450.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:22:53 --> Use of undefined constant disable - assumed 'disable' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/pages/dev.php on line 450.
+ 1 APPPATH/Views/pages/dev.php(450): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(67): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:23:34 --> Use of undefined constant disabled - assumed 'disabled' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/pages/dev.php on line 450.
+ 1 APPPATH/Views/pages/dev.php(450): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(67): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:24:19 --> Use of undefined constant disabled - assumed 'disabled' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/pages/dev.php on line 450.
+ 1 APPPATH/Views/pages/dev.php(450): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/dev.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja1.php(67): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:29:52 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Views/pages/dev.php on line 450.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-14 22:39:17 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/dev.php on line 450.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 22:40:26 --> syntax error, unexpected '?>'
+in APPPATH/Views/pages/dev.php on line 450.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja1.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

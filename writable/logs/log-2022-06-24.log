@@ -1,0 +1,304 @@
+CRITICAL - 2022-06-24 01:10:40 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(145): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 01:10:50 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(145): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 01:10:56 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(145): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->prosesExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 10:55:18 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 10:55:46 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 10:55:55 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 10:56:43 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 10:57:20 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 10:57:21 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 10:57:21 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:00:06 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:00:07 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:00:33 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:01:22 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:01:56 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:04:27 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:04:28 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:04:48 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:05:01 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 11:05:03 --> syntax error, unexpected end of file
+in APPPATH/Views/pages/kinerja.php on line 357.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kinerja.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 12:50:25 --> Undefined property: App\Controllers\Satker::$builder
+in APPPATH/Controllers/Satker.php on line 28.
+ 1 APPPATH/Controllers/Satker.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Satker->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:07:24 --> Undefined property: App\Controllers\Kinerja::$builder
+in APPPATH/Controllers/Kinerja.php on line 63.
+ 1 APPPATH/Controllers/Kinerja.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:10:35 --> syntax error, unexpected '}', expecting end of file
+in APPPATH/Models/IndikatorKinerjaModel.php on line 36.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Kinerja.php(12): spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:10:54 --> Declaration of App\Models\SatkerModel::update($id, $value) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+in APPPATH/Models/SatkerModel.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-06-24 13:13:03 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(45): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:14:10 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Kinerja.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-06-24 13:14:43 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(46): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:21:58 --> Undefined variable: coba
+in APPPATH/Views/pages/kinerja.php on line 104.
+ 1 APPPATH/Views/pages/kinerja.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:22:17 --> Undefined variable: coba
+in APPPATH/Views/pages/kinerja.php on line 104.
+ 1 APPPATH/Views/pages/kinerja.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/kinerja.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kinerja.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:24:31 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(57): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:25:54 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in /var/www/ciapp/app/Controllers/Kinerja.php on line 42
+in SYSTEMPATH/Helpers/url_helper.php on line 101.
+ 1 APPPATH/Controllers/Kinerja.php(42): base_url()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:33:26 --> syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/BaseController.php on line 52.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Kinerja.php(7): spl_autoload_call()
+ 5 SYSTEMPATH/Router/AutoRouter.php(147): include_once('APPPATH/Controllers/Kinerja.php')
+ 6 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 7 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 8 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:39:56 --> Call to a member function reset() on null
+in APPPATH/Controllers/Kinerja.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:41:49 --> Call to undefined method CodeIgniter\Validation\Validation::hasErrors()
+in APPPATH/Views/pages/kinerja.php on line 17.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Kinerja.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-24 13:44:11 --> File "" does not exist.
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 149.
+ 1 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile()
+ 3 APPPATH/Controllers/Kinerja.php(56): PhpOffice\PhpSpreadsheet\IOFactory::load()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kinerja->readExcel()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

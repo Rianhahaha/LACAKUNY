@@ -1,0 +1,202 @@
+CRITICAL - 2022-09-07 11:14:26 --> Class "CodeIgniter\Database\Posgre\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('Posgre', 'CodeIgniter\\Database\\Posgre\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\UsersModel.php(11): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Login.php(12): App\Models\UsersModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-07 11:14:29 --> Class "CodeIgniter\Database\Posgre\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('Posgre', 'CodeIgniter\\Database\\Posgre\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\UsersModel.php(11): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Login.php(12): App\Models\UsersModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-07 11:14:36 --> Class "CodeIgniter\Database\Posgre\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('Posgre', 'CodeIgniter\\Database\\Posgre\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\UsersModel.php(11): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\Login.php(12): App\Models\UsersModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-07 11:15:23 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-07 11:15:23 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-07 11:15:43 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. in D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\Backup spasi...', 135)
+#1 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT *\nFROM "...')
+#2 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\Backup spasikita\Using\ciapp3\app\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', Array)
+#7 D:\Backup spasikita\Using\ciapp3\app\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, NULL)
+#8 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+#9 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+#10 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Backup spasikita\Using\ciapp3\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 D:\Backup spasikita\Using\ciapp3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Backup spasi...')
+#13 {main}
+CRITICAL - 2022-09-07 11:15:43 --> pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character = boolean
+LINE 5: AND &quot;kro&quot; = FALSE
+                  ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.', 'SYSTEMPATH\\Database\\Postgre\\Connection.php', 135)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(135): pg_query(resource (pgsql link), 'SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 3 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "ro"
+WHERE "tahun" = \'2022\'
+AND "sistem" = 9
+AND "kro" = FALSE')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "ro"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:
+AND "kro" = :kro:', [...], false)
+ 6 APPPATH\Models\SimprokaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Simproka1.php(198): App\Models\SimprokaModel->getAll('ro', [...])
+ 8 APPPATH\Controllers\Simproka1.php(260): App\Controllers\Simproka1->setData(false, null)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Simproka1->RO()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simproka1))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-07 11:15:46 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;itgercep&quot; does not exist
+CRITICAL - 2022-09-07 11:15:46 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;itgercep&quot; does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "foto"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:', [...], false)
+ 3 APPPATH\Models\KinerjaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kinerja.php(44): App\Models\KinerjaModel->getAll('foto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kinerja))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-07 11:16:44 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;itgercep&quot; does not exist
+CRITICAL - 2022-09-07 11:16:44 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;itgercep&quot; does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "foto"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:', [...], false)
+ 3 APPPATH\Models\KinerjaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kinerja.php(44): App\Models\KinerjaModel->getAll('foto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kinerja))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-07 11:17:46 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;itgercep&quot; does not exist
+CRITICAL - 2022-09-07 11:17:46 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;itgercep&quot; does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "foto"
+WHERE "tahun" = :tahun:
+AND "sistem" = :sistem:', [...], false)
+ 3 APPPATH\Models\KinerjaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kinerja.php(44): App\Models\KinerjaModel->getAll('foto', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kinerja->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kinerja))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-07 11:20:52 --> DBdev is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Models\KinerjaModel.php(12): CodeIgniter\Database\Config::connect('DBdev', true)
+ 2 APPPATH\Controllers\Kinerja.php(21): App\Models\KinerjaModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Kinerja->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,9 @@
+CRITICAL - 2022-08-08 06:53:46 --> syntax error, unexpected '<'
+in APPPATH/Views/pages/simproka.php on line 1108.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Simproka.php(118): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Simproka->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
